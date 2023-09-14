@@ -3,7 +3,14 @@ import {} from 'react'
 function Techgirls() {
     return (
       <>
-      <h1>Tech Girls</h1>
+      <header>
+        <a href="#">Home</a>
+        <a href="#">Tech Girls</a>
+        <a href="#">Projetos</a>
+        <a href="#">Tiana</a>
+        <a href="#">Dúvidas Frequentes</a>
+      </header>
+      
       </>
     )
   }

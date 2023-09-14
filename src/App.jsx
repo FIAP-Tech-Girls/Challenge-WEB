@@ -1,5 +1,7 @@
 import {} from 'react'
-import Nav from './Nav'
+import Nav from '../src/Nav'
+import Home from '../src/Home'
+import Techgirls from './Techgirls'
 import {Outlet} from 'react-router-dom'
 
 
@@ -9,8 +11,9 @@ function App() {
   return (
     <>
       <Nav />
+      <Home/>
       <Outlet/>
-
+      <Techgirls/>
     </>
   )
 }
