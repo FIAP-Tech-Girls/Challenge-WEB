@@ -1,12 +1,11 @@
 import {} from 'react'
 
-function Techgirls() {
+function Footer() {
     return (
       <>
-      
       
       </>
     )
   }
   
-  export default Techgirls
+  export default Footer
