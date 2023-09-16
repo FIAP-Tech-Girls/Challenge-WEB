@@ -52,7 +52,20 @@ function Duvidas() {
             Responderemos em breve!
         </p>
 
-        <div className="formulario">
+        <div class="formulario">
+            <center>
+                <form name="formularioDuvidas">
+                    <h3>FORMULÁRIO</h3>
+
+                    <label for="name">Nome: </label> <input type="text" placeholder="Insira seu nome" id="nomeUsuario" required> <br><br>
+                    <label for="email">Email: </label> <input type="email" placeholder="Insira seu email" id="emailUsuario" required> <br><br>
+                    <label for="assunto">Assunto: </label> <input type="text" placeholder="Insira o assunto" id="assunto" required> <br><br>
+                    <label for="duvida">Deixe sua dúvida</label><br><br>
+                    <input type="text" placeholder="Escreva sua dúvida!" id="duvida" required><br> <br>
+                    <input type="submit" value="Enviar" id="enviarDuvida" onclick="">
+                </form>
+            </center>
+        </div>
             
         </div>
       </div>
