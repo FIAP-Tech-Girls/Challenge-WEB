@@ -2,9 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inika&display=swap');
 
 *{
-    background-color: #B698BE;
     margin: 0;
     padding: 0;
+}
+
+body{
+    background-color: #B698BE;
 }
 
 .NavBar{
@@ -16,7 +19,7 @@
 }
 
 #Item-Nav{
-    font-family: 'Lova Ya Like A Sister', sans-serif;
+    font-family: 'Love Ya Like A Sister', sans-serif;
     color: black;
     font-weight: 400;
     font-size: 18px;
@@ -52,4 +55,185 @@
 
 .Imagem-Botao{
     width: 100%;
+}
+
+.titulo-tiana{
+    font-family: 'Love Ya Like A Sister', sans-serif;
+    text-align: center;
+    font-size: 35px;
+}
+
+.conteudo-tiana-imagem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.texto-tiana{
+    font-family: 'Inika',sans-serif;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 30px;
+}
+
+
+.texto-tiana-diferencial{
+    padding: 20px;
+    text-align: center;
+    font-family: 'Inika', sans-serif;
+    font-size: 30px;
+
+}
+
+
+.conteudo-tiana-diferencial figure{
+    display: flex;
+    padding: 20px;
+    height: 400px;
+}
+
+.conteudo-tiana-diferencial figcaption{
+    display: flex;
+    font-family: 'Inika' , sans-serif;
+    font-size: 20px;
+}
+
+.conteudo-tiana-solucao img{
+    height: 400px;
+}
+
+.texto-tiana-solucao{
+    padding: 30px;
+    text-align: center;
+    font-family: 'Love Ya Like A Sister', sans-serif;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.texto-solucao{
+    text-align: center;
+    padding: 20px;
+}
+
+.texto-solucao h2{
+    font-family: 'Love Ya Like A Sister' , sans-serif;
+}
+
+.texto-solucao p{
+    font-family: 'Inika', sans-serif;
+    margin-top: 20px;
+}
+
+.duvidasFrequentes{
+    justify-content: center;
+    padding: 20px;
+}
+
+.duvidasFrequentes p{
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Inika',sans-serif;
+
+}
+
+.perguntas{
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    width: 58%;
+}
+
+.perguntas input,
+.perguntas .respostas{
+    display: none;
+    text-align: center;
+}
+
+.perguntas label{
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    width: 100%;
+    font-family: 'Inika',sans-serif;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.perguntas input:checked ~ .respostas{
+    display: block;
+}
+
+.ImagemDuvidas{
+    width: 100%;
+}
+
+.BotaoFundo{
+    width: 100%;
+}
+
+.tituloFormulario{
+    text-align: center;
+    width: 58%;
+    justify-content: center;
+    font-family: 'Inika' , sans-serif;
+    font-size: 15px;
+    padding: 30px;
+}
+
+form{
+    background-color: #391BA6;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 30px;
+    color: white;
+}
+
+form h3{
+    font-size: 25px;
+    font-family: 'Inika',sans-serif;
+    color: white;
+    font-weight: normal;
+    padding: 20px;
+    background-color: #391BA6;
+}
+
+
+
+form #duvida{
+    width: 500px;
+    height: 200px;
+}
+
+form #enviarDuvida{
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #F085F2;
+    
+}
+
+form ::placeholder{
+    color: black;
+    text-align: center;
+}
+
+#nomeUsuario{
+    margin-bottom: 15px;
+}
+
+#emailUsuario{
+    margin-bottom: 15px;
+}
+
+.copy-footer{
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Inika', sans-serif;
+    margin-bottom: 20px;
 }
