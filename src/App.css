@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
 
 *{
     margin: 0;
@@ -7,16 +8,36 @@
 }
 
 body{
-    background-color: #B698BE;
+    background-image: linear-gradient(to right, #B698BE,#D5C5E0,#CDBDD7)
 }
 
 .NavBar{
-    padding: 24px;
+    padding-bottom: 24px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-end;
 }
+
+.NavBarLogin{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#Item-NavL{
+    font-family: 'Inika', sans-serif;
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+    padding-right: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.NavBar hover {
+    color: #391BA6;
+}
+
 
 #Item-Nav{
     font-family: 'Love Ya Like A Sister', sans-serif;
@@ -28,6 +49,104 @@ body{
     text-decoration: none;
 }
 
+
+.imagem-home img{
+    width: 100%;
+    display: block;
+}
+
+.imagem-home h1{
+    position: absolute;
+    color: white;
+    font-family: 'Jura', sans-serif;
+    font-size: 70px;
+    top: 65%;
+    left: 35%;
+    
+}
+
+.imagem1-home{
+    padding: 100px;
+}
+
+.titulo-home-texto {
+    font-family: 'Love Ya Like A Sister', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 40px;
+}
+
+.conteudo-home-texto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.titulo-reconhecimentos{
+    padding: 30px;
+    text-align: center;
+    font-family: 'Love Ya Like A Sister', sans-serif;
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+
+.lampada-home{
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow-x: auto;  
+}
+
+.lampada-home img{
+    height: 200px;
+    padding: auto;
+    padding: 14px;
+}
+
+
+.legenda-home1{
+    text-align: center;
+    font-family: 'Inika',sans-serif;
+    font-size: 19px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-bottom: 25%;
+    
+}
+
+.legenda-home2{
+    text-align: center;
+    font-family: 'Inika',sans-serif;
+    font-size: 19px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-bottom: 25%;
+}
+
+.legenda-home3{
+    text-align: center;
+    font-family: 'Inika',sans-serif;
+    font-size: 19px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-bottom: 25%;
+}
+
+
+.texto-home{
+    font-family: 'Inika',sans-serif;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 30px;
+}
 
 
 .titulo-tech{
@@ -55,12 +174,25 @@ body{
 
 .Imagem-Botao{
     width: 100%;
+    margin-bottom: 90px;
+    margin-top: 50px
 }
+
+.Imagem-Botao h2{
+    position: absolute;
+    color: white;
+    font-family: 'Inika', sans-serif;
+    right: 0;
+    text-align: center;
+
+}
+
 
 .titulo-tiana{
     font-family: 'Love Ya Like A Sister', sans-serif;
     text-align: center;
     font-size: 35px;
+    margin-top: 25px;
 }
 
 .conteudo-tiana-imagem{
@@ -82,28 +214,73 @@ body{
 
 
 .texto-tiana-diferencial{
-    padding: 20px;
+    padding: 40px;
     text-align: center;
     font-family: 'Inika', sans-serif;
     font-size: 30px;
 
 }
 
-
-.conteudo-tiana-diferencial figure{
+.grid-container{
+    padding: 15px;
     display: flex;
-    padding: 20px;
-    height: 400px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow-x: auto;  
 }
 
-.conteudo-tiana-diferencial figcaption{
-    display: flex;
-    font-family: 'Inika' , sans-serif;
-    font-size: 20px;
+.grid-item1{
+    background-color: #B698BE;
+    box-shadow: 10px 10px 4px 0px #351C5970;
+    margin-right: 30px;
+    border-radius: 30px;
 }
+
+.grid-item2{
+    background-color: #B698BE;
+    box-shadow: 10px 10px 4px 0px #351C5970;
+    border-radius: 30px;
+}
+
+.imagem1-tiana{
+    height: 200px;
+    padding: auto;
+    padding: 14px;
+    margin-left: 25px;
+}
+
+.imagem2-tiana{
+    height: 200px;
+    padding: auto;
+    padding: 14px;
+    margin-left: 50px;
+}
+
+
+.imagem-tiana-legenda{
+    text-align: center;
+    font-family: 'Inika',sans-serif;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-bottom: 25%;
+    
+}
+
+.imagem-tiana-legenda2{
+    text-align: center;
+    font-family: 'Inika',sans-serif;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-bottom: 25%;
+    
+}
+
 
 .conteudo-tiana-solucao img{
-    height: 400px;
+    height: 200px;
 }
 
 .texto-tiana-solucao{
@@ -127,6 +304,72 @@ body{
     font-family: 'Inika', sans-serif;
     margin-top: 20px;
 }
+
+.titulo-projetos{
+    font-family: 'Love Ya Like A Sister', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 25px;
+}
+
+.conteudo-projetos-texto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+
+.texto-projetos{
+    font-family: 'Inika',sans-serif;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 30px;
+}
+
+
+.conteudo-projetos-SFOME-texto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    
+}
+
+.texto-projetos-SFOME{
+    font-family: 'Inika',sans-serif;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 30px;
+}
+
+.titulo-projetos-SFOME{
+    display: block;
+    font-family: 'Love Ya Like A Sister', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.textos-projetos{
+    flex-direction: column;
+}
+
+.frase-SFOME{
+    font-family: 'Love Ya Like A Sister', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    padding: 50px;
+}
+
+
 
 .duvidasFrequentes{
     justify-content: center;
@@ -207,6 +450,7 @@ form h3{
 form #duvida{
     width: 500px;
     height: 200px;
+    border-radius: 5px;
 }
 
 form #enviarDuvida{

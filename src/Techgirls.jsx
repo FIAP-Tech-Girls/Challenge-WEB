@@ -15,7 +15,8 @@ function Techgirls() {
       </div>
       </section>
       <div className='Imagem-Botao'>
-        <img src="./src/assets/ImagemFundoBotao.png" className='BotaoFundo' />
+        <h2>Conheça nossos projetos!</h2>
+        <a href="Projetos"><img src="./src/assets/ImagemFundoBotao.png" className='BotaoFundo' /></a>
       </div>
       
       </>

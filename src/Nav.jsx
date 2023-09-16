@@ -2,9 +2,13 @@ import {} from 'react'
 import './App.css'
 import { NavLink } from 'react-router-dom'
 
+
 function Nav() {
   return (
     <>
+    <div className='NavBarLogin'>
+      <NavLink to='Login' id='Item-NavL'>Login | Cadastro</NavLink>
+    </div>
     <div className='NavBar'>
       <NavLink to='Home' id='Item-Nav'>Home</NavLink>
       <NavLink to='Tech Girls' id='Item-Nav'>Tech Girls</NavLink>
