@@ -4,6 +4,7 @@ function Duvidas() {
     return (
     <>
         <div className="duvidasFrequentes">
+            <img src="./src/assets/ImagensDuvidas/DuvidasFrequentes.png" />
           <h1>Clique na pergunta desejada que irá aparecer a resposta!</h1>
           <div className="perguntas">
             <label className="pergunta">
@@ -52,13 +53,7 @@ function Duvidas() {
         </p>
 
         <div className="formulario">
-            <form name="formularioDuvidas">
-                <h3>FORMULÁRIO</h3>
-                    <label className="name">Nome: </label> 
-                    <label className="email">Email: </label>  
-                    <label className="assunto">Assunto: </label> 
-                    <label className="duvida">Deixe sua dúvida</label>
-              </form>
+            
         </div>
       </div>
     </>

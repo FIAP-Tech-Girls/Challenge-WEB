@@ -1,3 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inika&display=swap');
+
 *{
     background-color: #B698BE;
+    margin: 0;
+    padding: 0;
+}
+
+.NavBar{
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#Item-Nav{
+    font-family: 'Lova Ya Like A Sister', sans-serif;
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+.titulo-tech{
+    font-family: 'Love Ya Like A Sister', sans-serif;
+    text-align: center;
+    font-size: 35px;
+}
+
+.conteudo-tech-imagem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.texto-tech{
+    font-family: 'Inika',sans-serif;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 30px;
+}
+
+.Imagem-Botao{
+    width: 100%;
 }

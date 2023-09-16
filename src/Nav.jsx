@@ -5,11 +5,14 @@ import { NavLink } from 'react-router-dom'
 function Nav() {
   return (
     <>
-    <NavLink to='Home'>Home</NavLink>
-    <NavLink to='Tech Girls'>Tech Girls</NavLink>
-    <NavLink to='Projetos'>Projetos</NavLink>
-    <NavLink to='Tiana'>Tiana</NavLink>
-    <NavLink to='Duvidas Frequentes'>Dúvidas Frequentes</NavLink>
+    <div className='NavBar'>
+      <NavLink to='Home' id='Item-Nav'>Home</NavLink>
+      <NavLink to='Tech Girls' id='Item-Nav'>Tech Girls</NavLink>
+      <NavLink to='Projetos' id='Item-Nav'>Projetos</NavLink>
+      <NavLink to='Tiana' id='Item-Nav'>Tiana</NavLink>
+      <NavLink to='Duvidas Frequentes' id='Item-Nav'>Dúvidas Frequentes</NavLink>
+    </div>
+    
     
       
     </>
