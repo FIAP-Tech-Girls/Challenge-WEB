@@ -12,11 +12,15 @@ function Nav() {
     </div>
 
     <div className='NavBar'>
-      <NavLink to='Home' id='Item-Nav'>Home</NavLink>
-      <NavLink to='Tech Girls' id='Item-Nav'>Tech Girls</NavLink>
-      <NavLink to='Projetos' id='Item-Nav'>Projetos</NavLink>
-      <NavLink to='Tiana' id='Item-Nav'>Tiana</NavLink>
-      <NavLink to='Duvidas Frequentes' id='Item-Nav'>Dúvidas Frequentes</NavLink>
+      <img className='NavBar-logo' src="./src/assets/LogoTechGirlsLightMode.png" alt="" />
+      <nav className='NavBar-item'>
+        <NavLink to='Home' id='Item-Nav'>Home</NavLink>
+        <NavLink to='Tech Girls' id='Item-Nav'>Tech Girls</NavLink>
+        <NavLink to='Projetos' id='Item-Nav'>Projetos</NavLink>
+        <NavLink to='Tiana' id='Item-Nav'>Tiana</NavLink>
+        <NavLink to='Duvidas Frequentes' id='Item-Nav'>Dúvidas Frequentes</NavLink>
+      </nav>
+      
     </div>
     
     
