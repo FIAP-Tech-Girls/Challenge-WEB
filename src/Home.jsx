@@ -1,44 +1,4 @@
-import React, {useState, useEffect} from 'react'
-import Typewriter from '.Typewriter'
-
-const Typewriter = ({ words, speed }) => {
-  const [currentWordIndex, setCurrentWordIndex] = useState(0);
-  const [currentWord, setCurrentWord] = useState("");
-  const [displayedText, setDisplayedText] = useState("");
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      if (displayedText === words[currentWordIndex]) {
-        // Aguarda um breve atraso antes de passar para a próxima palavra
-        setTimeout(() => {
-          const nextWordIndex =
-            currentWordIndex === words.length - 1 ? 0 : currentWordIndex + 1;
-          setCurrentWordIndex(nextWordIndex);
-        }, 1000); // Tempo de espera de 1 segundo
-
-        return;
-      }
-
-      const nextChar = words[currentWordIndex][displayedText.length];
-      setDisplayedText((prevText) => prevText + nextChar);
-    }, speed);
-
-    return () => clearInterval(interval);
-  }, [currentWordIndex, displayedText, speed, words]);
-
-  useEffect(() => {
-    setCurrentWord(words[currentWordIndex]);
-    setDisplayedText("");
-  }, [currentWordIndex, words]);
-
-  return <span>{displayedText}</span>;
-}
-
-const App = () =>{
-  const words = ["Tecnologia","Inovação","Inclusão", "Empatia"];
-}
-
-
+import {} from 'react';
 
 
 
@@ -56,7 +16,7 @@ function Home() {
         <img src="./src/assets/ImagensHome/imagemScrolldown.png" />
         </div>
         <div className='conteudo-home-imagem'>
-          <p className='titulo-home'>O futuro é <Typewriter words={words} speed={100}/></p>
+          <p className='titulo-home'>O futuro é </p>
           
         </div>
         <center><img src="./src/assets/ImagensHome/imagem1.png" className='imagem1-home' /></center>
