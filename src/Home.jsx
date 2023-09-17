@@ -18,14 +18,14 @@ function Home() {
           <h2 className='titulo-home-texto'>Um pouco sobre quem somos!</h2>
           <div className='conteudo-home-texto'>
           <img src="./src/assets/ImagensHome/imagem2.png" />
-          <p className='texto-home'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eros tellus, congue vitae ultricies quis, imperdiet a sapien. Nam elit dolor, laoreet vel dolor vitae, consequat porttitor lectus. Proin cursus imperdiet neque id lobortis. Nullam cursus ligula sit amet enim elementum sagittis eget sed tellus. Integer augue libero, molestie in condimentum non, rhoncus ac lorem. Integer sagittis luctus dui. Quisque non sem lectus. Proin molestie ultricies lorem ac efficitur. Vestibulum eu diam id nisi aliquam convallis a in metus. Vivamus imperdiet odio eget elit mattis, ut dictum lacus pharetra. Etiam ultricies condimentum.</p>
+          <p className='texto-home'>Somos as Tech Girls, um grupo constituído por quatro estudantes de Engenharia de Software na FIAP, firmemente decididas a desafiar a histórica predominância masculina na indústria de tecnologia. Nossa meta primordial é unir nossos conhecimentos para desenvolver projetos que tragam benefícios à sociedade e, ao mesmo tempo, impulsionem nosso próprio aprendizado. Acreditamos profundamente que a diversidade desempenha um papel fundamental na promoção da inovação, e estamos totalmente empenhadas em evidenciar a contribuição das mulheres nesse campo. Nosso objetivo é servir de fonte de inspiração para jovens em todo o mundo, demonstrando que não há limites para o que as mulheres podem alcançar na área da tecnologia, abrindo caminhos para as próximas gerações..</p>
         </div>
         <div className='conteudo-home-imagem-reconhecimentos'>
           <h2 className='titulo-reconhecimentos'>Nossos reconhecimentos</h2>
           <div className='lampada-home'>
-          <center><figure><img src="./src/assets/ImagensHome/lampada-de-ideia.png"/><figcaption className='legenda-home1'>1º lugar na Global Solution pela Fiap</figcaption></figure>
-          <figure><img src="./src/assets/ImagensHome/lampada-de-ideia.png"/><figcaption className='legenda-home2'>Grupo escolhido pela IBM</figcaption></figure>
-          <figure><img src="./src/assets/ImagensHome/lampada-de-ideia.png"/><figcaption className='legenda-home3'>Reconhecimento de professores</figcaption></figure></center>
+            <figure><img src="./src/assets/ImagensHome/lampada-de-ideia.png"/><figcaption className='legenda-home1'>1º lugar na Global Solution pela Fiap</figcaption></figure>
+            <figure><img src="./src/assets/ImagensHome/lampada-de-ideia.png"/><figcaption className='legenda-home2'>Grupo escolhido pela IBM</figcaption></figure>
+            <figure><img src="./src/assets/ImagensHome/lampada-de-ideia.png"/><figcaption className='legenda-home3'>Reconhecimento de professores</figcaption></figure>
           </div>
         </div>
       </section>

@@ -7,7 +7,8 @@ function Nav() {
   return (
     <>
     <div className='NavBarLogin'>
-      <NavLink to='Login' id='Item-NavL'>Login | Cadastro</NavLink>
+      <NavLink to='Login' id='Item-NavL'>Login</NavLink>
+      <NavLink to='Cadastro' id='Item-NavL'>Cadastro</NavLink>
     </div>
     <div className='NavBar'>
       <NavLink to='Home' id='Item-Nav'>Home</NavLink>

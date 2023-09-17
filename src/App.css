@@ -97,16 +97,15 @@ body{
 .lampada-home{
     padding: 15px;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
-    overflow-x: auto;  
+    overflow-x: auto;
 }
 
 .lampada-home img{
-    height: 200px;
-    padding: auto;
+    height: 100px;
     padding: 14px;
+    margin-left: 60px;
 }
 
 
@@ -116,7 +115,7 @@ body{
     font-size: 19px;
     color: rgb(0, 0, 0);
     font-weight: bold;
-    margin-bottom: 25%;
+    margin-right: 30px;
     
 }
 
@@ -126,7 +125,8 @@ body{
     font-size: 19px;
     color: rgb(0, 0, 0);
     font-weight: bold;
-    margin-bottom: 25%;
+    margin-right: 20px;
+    
 }
 
 .legenda-home3{
@@ -135,7 +135,8 @@ body{
     font-size: 19px;
     color: rgb(0, 0, 0);
     font-weight: bold;
-    margin-bottom: 25%;
+    margin-left: 20px;
+
 }
 
 
@@ -458,6 +459,7 @@ form #enviarDuvida{
     padding: 15px;
     margin-top: 20px;
     background-color: #F085F2;
+    border-radius: 10px;
     
 }
 
@@ -473,6 +475,56 @@ form ::placeholder{
 #emailUsuario{
     margin-bottom: 15px;
 }
+
+.FormularioLogin{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.TituloLogin{
+    text-align: center;
+    font-family: 'Inika', sans-serif;
+    padding: 20px;
+}
+
+.emailLogin{
+    padding: 10px;
+    text-align: center;
+    font-family: 'Inika' ,sans-serif;
+}
+
+.senhaLogin{
+    padding: 10px;
+    text-align: center;
+}
+
+.FormularioLogin p{
+    font-family: 'Inika', sans-serif;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.FormularioLogin p a{
+    text-decoration: none;
+    color: #F1BEFF;
+}
+
+.legenda-formulario{
+    font-family: 'Inika', sans-serif;
+    text-align: center;
+    padding: 25px;
+}
+
+.nomeCadastro{
+    padding: 10px;
+    text-align: center;
+    font-family: 'Inika' ,sans-serif;
+}
+
+
 
 .copy-footer{
     text-align: center;
