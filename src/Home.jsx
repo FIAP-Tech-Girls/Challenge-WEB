@@ -1,7 +1,5 @@
 import {} from 'react';
 
-
-
 function Home() {
 
 
@@ -16,9 +14,9 @@ function Home() {
         <img src="./src/assets/ImagensHome/imagemScrolldown.png" />
         </div>
         <div className='conteudo-home-imagem'>
-          <p className='titulo-home'>O futuro é </p>
-          
+          <p className='titulo-home'>O futuro é <span class="texto-escrito"></span><span class="cursor">&nbsp;</span></p>
         </div>
+        
         <center><img src="./src/assets/ImagensHome/imagem1.png" className='imagem1-home' /></center>
           <h2 className='titulo-home-texto'>Um pouco sobre quem somos!</h2>
           <div className='conteudo-home-texto'>
@@ -32,6 +30,10 @@ function Home() {
             <figure><img src="./src/assets/ImagensHome/lampada-de-ideia.png"/><figcaption className='legenda-home2'>Grupo escolhido pela IBM</figcaption></figure>
             <figure><img src="./src/assets/ImagensHome/lampada-de-ideia.png"/><figcaption className='legenda-home3'>Reconhecimento de professores</figcaption></figure>
           </div>
+        </div>
+        <div className='botoes'>
+          <button className='botaoHome'  id="botaoSaibaMais">Saiba mais!</button>
+          <button className='botaoHome' id="botaoNossosProjetos">Nossos projetos</button>
         </div>
       </section>
       </>
