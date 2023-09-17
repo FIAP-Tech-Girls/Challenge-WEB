@@ -7,8 +7,15 @@
     padding: 0;
 }
 
+
+
 body{
     background-image: linear-gradient(to right, #B698BE,#D5C5E0,#CDBDD7)
+}
+
+.logoTech{
+    display: flex;
+    justify-content: flex-start;
 }
 
 .NavBar{
@@ -23,6 +30,7 @@ body{
     display: flex;
     justify-content: flex-end;
 }
+
 
 #Item-NavL{
     font-family: 'Inika', sans-serif;

@@ -10,6 +10,7 @@ function Nav() {
       <NavLink to='Login' id='Item-NavL'>Login</NavLink>
       <NavLink to='Cadastro' id='Item-NavL'>Cadastro</NavLink>
     </div>
+
     <div className='NavBar'>
       <NavLink to='Home' id='Item-Nav'>Home</NavLink>
       <NavLink to='Tech Girls' id='Item-Nav'>Tech Girls</NavLink>
