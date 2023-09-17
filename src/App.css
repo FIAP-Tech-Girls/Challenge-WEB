@@ -13,31 +13,32 @@ body{
     background-image: linear-gradient(to right, #B698BE,#D5C5E0,#CDBDD7)
 }
 
-.logoTech{
-    display: flex;
-    justify-content: flex-start;
-}
-
 
 .NavBar{
     padding-bottom: 24px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-end;
 }
 
 .NavBar-logo{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-start;
-    height: 190px;
+    /*justify-content: flex-start;*/
+    height: 180px;
+    margin-right: 80px;
+}
+
+.NavBar-item{
+    justify-content: flex-end;
+    margin-left: 300px;
 }
 
 .NavBarLogin{
     display: flex;
     justify-content: flex-end;
+    margin-top: 10px;
 }
 
 
@@ -51,10 +52,6 @@ body{
     text-decoration: none;
 }
 
-.NavBar hover {
-    color: #391BA6;
-}
-
 
 #Item-Nav{
     font-family: 'Love Ya Like A Sister', sans-serif;
@@ -64,6 +61,11 @@ body{
     padding: 24px;
     font-weight: bold;
     text-decoration: none;
+    margin-left: 2px;
+}
+
+#Item-Nav:hover {
+    color: #391BA6;
 }
 
 
