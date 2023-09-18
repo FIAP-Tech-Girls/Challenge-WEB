@@ -2,6 +2,7 @@ import {} from 'react';
 
 function Home() {
 
+
     return (
       
       <>
@@ -13,7 +14,8 @@ function Home() {
         </div>
 
         <div className='conteudo-home-imagem'>
-          <p className='titulo-home'>O futuro é <span class="texto-escrito"></span><span class="cursor">&nbsp;</span></p>
+          <p className='titulo-home'>O futuro é Tecnologia<span className="texto-escrito"></span><span className="cursor">&nbsp;</span></p>
+          
           <center><img src="./src/assets/ImagensHome/imagem1.png" className='imagem1-home' /></center>
 
           
@@ -41,6 +43,8 @@ function Home() {
       </>
     )
   }
+
+
   
   export default Home
 
