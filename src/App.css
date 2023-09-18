@@ -85,10 +85,17 @@ body{
 }
 
 .imagem1-home{
-    padding: 100px;
+    padding:10px;
 }
 
-.titulo-home-texto {
+.titulo-home {
+    font-family: 'Love Ya Like A Sister', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 40px;
+}
+
+.titulo-home-texto{
     font-family: 'Love Ya Like A Sister', sans-serif;
     text-align: center;
     font-size: 35px;

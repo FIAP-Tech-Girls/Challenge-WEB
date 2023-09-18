@@ -2,8 +2,6 @@ import {} from 'react';
 
 function Home() {
 
-
-
     return (
       
       <>
@@ -13,11 +11,15 @@ function Home() {
         <h1>SCROLL DOWN</h1>
         <img src="./src/assets/ImagensHome/imagemScrolldown.png" />
         </div>
+
         <div className='conteudo-home-imagem'>
           <p className='titulo-home'>O futuro é <span class="texto-escrito"></span><span class="cursor">&nbsp;</span></p>
+          <center><img src="./src/assets/ImagensHome/imagem1.png" className='imagem1-home' /></center>
+
+          
         </div>
         
-        <center><img src="./src/assets/ImagensHome/imagem1.png" className='imagem1-home' /></center>
+        
           <h2 className='titulo-home-texto'>Um pouco sobre quem somos!</h2>
           <div className='conteudo-home-texto'>
           <img src="./src/assets/ImagensHome/imagem2.png" />
@@ -32,8 +34,8 @@ function Home() {
           </div>
         </div>
         <div className='botoes'>
-          <button className='botaoHome'  id="botaoSaibaMais">Saiba mais!</button>
-          <button className='botaoHome' id="botaoNossosProjetos">Nossos projetos</button>
+          <a href="./Techgirls"><button className='botaoHome'  id="botaoSaibaMais">Saiba mais!</button></a>
+          <a href="./Projetos"><button className='botaoHome' id="botaoNossosProjetos">Nossos projetos</button></a>
         </div>
       </section>
       </>
