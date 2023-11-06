@@ -2,11 +2,20 @@ import {} from 'react';
 
 function Home() {
 
+  function Scrolldown(){
+    const paraScrollar = document.getElementById('scroll');
+    const secaoAlvo = document.getElementById('conteudo-home-imagem')
+
+    paraScrollar.addEventListener('click',function(){
+      secaoAlvo.scrollIntoView({behavior: 'smooth',duration: 1.8});
+    });
+  }
+  
 
 
-    return (
+  return (
       
-      <>
+      <form onSubmit={Scrolldown}>
 
       <section className='conteudo-home'>
         <div className='imagem-home'>
@@ -43,7 +52,7 @@ function Home() {
           <a href="./Projetos"><button className='botaoHome' id="botaoNossosProjetos">Nossos projetos</button></a>
         </div>
       </section>
-      </>
+      </form>
     )
   }
 
