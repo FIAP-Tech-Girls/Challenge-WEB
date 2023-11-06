@@ -69,10 +69,43 @@ body{
 }
 
 
+
 .imagem-home img{
     width: 100%;
     display: block;
 }
+
+.imagem-home button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 500ms linear;
+    padding: 0px 100px 50px 100px;
+    position: absolute;
+    height: 50vh;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right:0;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    z-index: 10;
+    
+}
+
+.imagem-home button img{
+    height: 50px;
+    
+}
+
+
+
+.imagem-home button:hover{
+    transform: scale(1.1);
+}
+
+
 
 .imagem-home h1{
     position: absolute;

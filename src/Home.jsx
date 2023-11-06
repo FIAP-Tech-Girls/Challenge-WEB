@@ -3,21 +3,24 @@ import {} from 'react';
 function Home() {
 
 
+
     return (
       
       <>
 
       <section className='conteudo-home'>
         <div className='imagem-home'>
-        <h1>SCROLL DOWN</h1>
-        <img src="./src/assets/ImagensHome/imagemScrolldown.png" />
+          <h1>SCROLL DOWN</h1>
+          <img src="./src/assets/ImagensHome/imagemScrolldown.png" />
+          <button id='scroll'><img src="./src/assets/ImagensHome/seta2.png"/></button>
         </div>
+        
 
         <div className='conteudo-home-imagem'>
           <p className='titulo-home'>O futuro é Tecnologia<span className="texto-escrito"></span><span className="cursor">&nbsp;</span></p>
           
           <center><img src="./src/assets/ImagensHome/imagem1.png" className='imagem1-home' /></center>
-
+          
           
         </div>
         
