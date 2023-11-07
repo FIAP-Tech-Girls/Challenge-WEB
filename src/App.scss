@@ -4,7 +4,7 @@
 
 .container{
     background-image: linear-gradient(to right, #B698BE,#D5C5E0,#CDBDD7);
-    
+
     .conteudo-home{
         .imagem-home{ 
             .imagem-home #imagemScroll{
@@ -55,7 +55,7 @@
     }
     .conteudo-home-imagem{
         .titulo-home {
-            font-family: 'Love Ya Like A Sister', sans-serif;
+            font-family: $titulo;
             text-align: center;
             font-size: 35px;
             margin-top: 40px;
@@ -66,7 +66,7 @@
     }
 
     .titulo-home-texto{
-        font-family: 'Love Ya Like A Sister', sans-serif;
+        font-family: $titulo;
         text-align: center;
         font-size: 35px;
         margin-top: 40px;
@@ -94,7 +94,7 @@
         .titulo-reconhecimentos{
             padding: 30px;
             text-align: center;
-            font-family: 'Love Ya Like A Sister', sans-serif;
+            font-family: $titulo;
             font-size: 35px;
             margin-top: 50px;
         }
@@ -172,7 +172,7 @@
 
         .TituloLogin{
             text-align: center;
-            font-family: 'Inika', sans-serif;
+            font-family: $legenda;
             padding: 20px;
         }
 
@@ -279,7 +279,7 @@
         }
 
         ::placeholder{
-            color: black;
+            color: $texto-padrao;
             text-align: center;
         }
 
@@ -289,7 +289,7 @@
         text-align: center;
         padding: 20px;
         font-size: 20px;
-        font-family: 'Inika', sans-serif;
+        font-family: $legenda;
         margin-bottom: 20px;
     }
 
@@ -300,7 +300,7 @@
 
         .TituloLogin{
             text-align: center;
-            font-family: 'Inika', sans-serif;
+            font-family: $legenda;
             padding: 20px;
         }
         
@@ -319,7 +319,7 @@
     }
 
     .legenda-formulario{
-        font-family: 'Inika', sans-serif;
+        font-family: $legenda;
         text-align: center;
         padding: 25px;
     }
@@ -328,6 +328,17 @@
         display: flex;
         justify-content: flex-end;
         margin-top: 10px;
+        
+            #Item-NavL{
+                font-family: $legenda;
+                color: $texto-padrao;
+                font-weight: 400;
+                font-size: 18px;
+                padding-right: 20px;
+                font-weight: bold;
+                text-decoration: none;
+            }
+
     }
 
     .NavBar{
@@ -348,12 +359,29 @@
         .NavBar-item{
             justify-content: flex-end;
             margin-left: 300px;
+
+            #Item-Nav{
+                font-family: $titulo;
+                color: $texto-padrao;
+                font-weight: 400;
+                font-size: 18px;
+                padding: 24px;
+                font-weight: bold;
+                text-decoration: none;
+                margin-left: 2px;
+            }
+            
+            #Item-Nav:hover {
+                color: #391BA6;
+            }
+            
+            
         }
     }
 
     .conteudo-projetos{
         .titulo-projetos{
-            font-family: 'Love Ya Like A Sister', sans-serif;
+            font-family: $titulo;
             text-align: center;
             font-size: 35px;
             margin-top: 25px;
@@ -383,7 +411,7 @@
             h2{
                 position: absolute;
                 color: white;
-                font-family: 'Inika', sans-serif;
+                font-family: $legenda;
                 right: 0;
                 text-align: center;
             
@@ -398,7 +426,7 @@
 
             .titulo-projetos-SFOME{
                 display: block;
-                font-family: 'Love Ya Like A Sister', sans-serif;
+                font-family: $titulo;
                 font-size: 40px;
                 text-align: center;
                 margin-top: 50px;
@@ -416,7 +444,7 @@
             
         }
         .frase-SFOME{
-            font-family: 'Love Ya Like A Sister', sans-serif;
+            font-family: $titulo;
             text-align: center;
             font-size: 30px;
             padding: 50px;
@@ -425,7 +453,7 @@
 
     .conteudo-techgirls{
         .titulo-tech{
-            font-family: 'Love Ya Like A Sister', sans-serif;
+            font-family: $titulo;
             text-align: center;
             font-size: 35px;
         }
@@ -470,7 +498,7 @@
         h2{
             position: absolute;
             color: white;
-            font-family: 'Inika', sans-serif;
+            font-family: $legenda;
             right: 0;
             text-align: center;
         
@@ -479,7 +507,7 @@
 
     .conteudo-tiana{
         .titulo-tiana{
-            font-family: 'Love Ya Like A Sister', sans-serif;
+            font-family: $titulo;
             text-align: center;
             font-size: 35px;
             margin-top: 25px;
@@ -504,7 +532,7 @@
             .texto-tiana-diferencial{
                 padding: 40px;
                 text-align: center;
-                font-family: 'Inika', sans-serif;
+                font-family: $legenda;
                 font-size: 30px;
             }
             .grid-container{
@@ -531,14 +559,14 @@
             }
             
             .grid-container figcaption{
-                color:black;
+                color:$texto-padrao;
             }
         }
         .conteudo-tiana-solucao{
             .texto-tiana-solucao{
                 padding: 30px;
                 text-align: center;
-                font-family: 'Love Ya Like A Sister', sans-serif;
+                font-family: $titulo;
                 font-size: 30px;
                 margin-top: 50px;
             }
@@ -547,11 +575,11 @@
                 padding: 20px;
 
                 h2{
-                    font-family: 'Love Ya Like A Sister' , sans-serif;
+                    font-family: $titulo;
                 }
                 
                 p{
-                    font-family: 'Inika', sans-serif;
+                    font-family: $legenda;
                     margin-top: 20px;
                 }
             }
