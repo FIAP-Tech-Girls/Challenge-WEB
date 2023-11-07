@@ -117,7 +117,7 @@ body{
                 text-align: center;
                 font-family: $legenda;
                 font-size: 19px;
-                color: rgb(0, 0, 0);
+                color: $cor-legenda;
                 font-weight: bold;
                 margin-right: 30px;
                 
@@ -127,7 +127,7 @@ body{
                 text-align: center;
                 font-family: $legenda;
                 font-size: 19px;
-                color: rgb(0, 0, 0);
+                color: $cor-legenda;
                 font-weight: bold;
                 margin-right: 20px;
                 
@@ -137,7 +137,7 @@ body{
                 text-align: center;
                 font-family: $legenda;
                 font-size: 19px;
-                color: rgb(0, 0, 0);
+                color:$cor-legenda;
                 font-weight: bold;
                 margin-left: 20px;
 
@@ -248,7 +248,7 @@ body{
     }
 
     .form{
-        background-color: #391BA6;
+        background-color: $cor-formulario;
         width: 500px;
         height: 500px;
         border-radius: 10px;
@@ -261,7 +261,7 @@ body{
             color: white;
             font-weight: normal;
             padding: 20px;
-            background-color: #391BA6;
+            background-color: $cor-formulario;
         }
 
         #duvida{
@@ -271,7 +271,7 @@ body{
         }
 
         #enviarDuvida{
-            color: rgb(0, 0, 0);
+            color: $cor-legenda;
             padding: 15px;
             margin-top: 20px;
             background-color: #F085F2;
@@ -373,7 +373,7 @@ body{
             }
             
             #Item-Nav:hover {
-                color: #391BA6;
+                color: $cor-formulario;
             }
             
             
