@@ -291,3 +291,271 @@
     margin-bottom: 20px;
 }
 
+.FormularioLogin{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+    .TituloLogin{
+        text-align: center;
+        font-family: 'Inika', sans-serif;
+        padding: 20px;
+    }
+    
+    .emailLogin{
+        padding: 10px;
+        text-align: center;
+        font-family: 'Inika' ,sans-serif;
+    }
+    
+    .senhaLogin{
+        padding: 10px;
+        text-align: center;
+    }
+    
+
+}
+
+.legenda-formulario{
+    font-family: 'Inika', sans-serif;
+    text-align: center;
+    padding: 25px;
+}
+
+.NavBarLogin{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.NavBar{
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .NavBar-logo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        height: 180px;
+        margin-right: 80px;
+    }
+    
+    .NavBar-item{
+        justify-content: flex-end;
+        margin-left: 300px;
+    }
+}
+
+.conteudo-projetos{
+    .titulo-projetos{
+        font-family: 'Love Ya Like A Sister', sans-serif;
+        text-align: center;
+        font-size: 35px;
+        margin-top: 25px;
+    }
+    
+    .conteudo-projetos-texto{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 24px;
+
+        .texto-projetos{
+            font-family: 'Inika',sans-serif;
+            font-size: 28px;
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+            padding: 30px;
+        }
+    }
+    .Imagem-Botao{
+        width: 100%;
+        margin-bottom: 90px;
+        margin-top: 50px
+
+        h2{
+            position: absolute;
+            color: white;
+            font-family: 'Inika', sans-serif;
+            right: 0;
+            text-align: center;
+        
+        }
+    }
+    .conteudo-projetos-SFOME-texto{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 24px;
+
+        .titulo-projetos-SFOME{
+            display: block;
+            font-family: 'Love Ya Like A Sister', sans-serif;
+            font-size: 40px;
+            text-align: center;
+            margin-top: 50px;
+        
+        }
+        
+        .texto-projetos-SFOME{
+            font-family: 'Inika',sans-serif;
+            font-size: 28px;
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+            padding: 30px;
+        }
+        
+    }
+    .frase-SFOME{
+        font-family: 'Love Ya Like A Sister', sans-serif;
+        text-align: center;
+        font-size: 30px;
+        padding: 50px;
+    }
+}
+
+.conteudo-techgirls{
+    .titulo-tech{
+        font-family: 'Love Ya Like A Sister', sans-serif;
+        text-align: center;
+        font-size: 35px;
+    }
+    .conteudo-tech-imagem{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 24px;
+
+        .texto-tech{
+            font-family: 'Inika',sans-serif;
+            font-size: 28px;
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+            padding: 30px;
+        }
+    }
+    .conteudo-tech-imagem{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 24px;
+
+        .texto-tech{
+            font-family: 'Inika',sans-serif;
+            font-size: 28px;
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+            padding: 30px;
+        }
+    }
+}
+.Imagem-Botao{
+    width: 100%;
+    margin-bottom: 90px;
+    margin-top: 50px
+
+    h2{
+        position: absolute;
+        color: white;
+        font-family: 'Inika', sans-serif;
+        right: 0;
+        text-align: center;
+    
+    }
+}
+
+.conteudo-tiana{
+    .titulo-tiana{
+        font-family: 'Love Ya Like A Sister', sans-serif;
+        text-align: center;
+        font-size: 35px;
+        margin-top: 25px;
+    }
+    .conteudo-tiana-imagem{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 24px;
+
+        .texto-tiana{
+            font-family: 'Inika',sans-serif;
+            font-size: 28px;
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+            padding: 30px;
+        }
+    }
+    .conteudo-tiana-diferencial{
+        .texto-tiana-diferencial{
+            padding: 40px;
+            text-align: center;
+            font-family: 'Inika', sans-serif;
+            font-size: 30px;
+        }
+        .grid-container{
+            padding: 15px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            overflow-x: auto;  
+
+            .grid-item1{
+                background-color: #B698BE;
+                box-shadow: 10px 10px 4px 0px #351C5970;
+                margin-right: 30px;
+                border-radius: 30px;
+                
+            }
+            
+            .grid-item2{
+                background-color: #B698BE;
+                box-shadow: 10px 10px 4px 0px #351C5970;
+                border-radius: 30px;
+            }
+        }
+        
+        .grid-container figcaption{
+            color:black;
+        }
+    }
+    .conteudo-tiana-solucao{
+        .texto-tiana-solucao{
+            padding: 30px;
+            text-align: center;
+            font-family: 'Love Ya Like A Sister', sans-serif;
+            font-size: 30px;
+            margin-top: 50px;
+        }
+        .texto-solucao{
+            text-align: center;
+            padding: 20px;
+
+            h2{
+                font-family: 'Love Ya Like A Sister' , sans-serif;
+            }
+            
+            p{
+                font-family: 'Inika', sans-serif;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+
+
+
