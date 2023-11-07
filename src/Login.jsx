@@ -23,6 +23,7 @@ function FormularioLogin (){
 
     return(
         <>
+        <div className='container'>
         <div className="FormularioLogin">
             <form onSubmit={handleSubmit}>
                 <h1 className="TituloLogin">LOGIN</h1>
@@ -42,7 +43,7 @@ function FormularioLogin (){
         </div>
         
         <p className="legenda-formulario">Não possui cadastro? <a href="Cadastro">Cadastre-se clicando aqui!</a></p> 
-        
+        </div>
         </>
     )
 }

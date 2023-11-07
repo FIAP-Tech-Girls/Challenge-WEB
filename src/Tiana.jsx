@@ -3,6 +3,7 @@ import {} from 'react'
 function Tiana() {
     return (
       <>
+      <div className='container'>
       <section className='conteudo-tiana'>
         <img src="./src/assets/ImagensTiana/Titulo.png" className='BotaoFundo'  />
       <h2 className='titulo-tiana'>A nossa inteligência artificial</h2>
@@ -36,7 +37,7 @@ function Tiana() {
         </div>
       </div>
       </section>
-     
+     </div>
       </>
     )
   }

@@ -6,6 +6,7 @@ import { NavLink } from 'react-router-dom'
 function Nav() {
   return (
     <>
+    <div className='container'>
     <div className='NavBarLogin'>
       <NavLink to='Login' id='Item-NavL'>Login</NavLink>
       <NavLink to='Cadastro' id='Item-NavL'>Cadastro</NavLink>
@@ -24,7 +25,7 @@ function Nav() {
     </div>
     
     
-      
+   </div>   
     </>
   )
 }

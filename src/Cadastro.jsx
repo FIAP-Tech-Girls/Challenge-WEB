@@ -29,6 +29,7 @@ function Cadastro (){
 
     return(
         <>
+        <div className="container">
         <div className="FormularioLogin">
             <form onSubmit={handleSubmit}>
                 <h1 className="TituloLogin">CADASTRO</h1>
@@ -49,7 +50,7 @@ function Cadastro (){
                 </div>
             </form>
         </div>
-        
+        </div>
         </>
     )
 }

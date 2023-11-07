@@ -3,6 +3,7 @@ import {} from 'react'
 function Projetos() {
     return (
       <>
+      <div className='container'>
       <section className='conteudo-projetos'>
         <img src="./src/assets/ImagensProjetos/TituloTransito.png" className='BotaoFundo'/>
         <h2 className='titulo-projetos'>Smart Cities</h2>
@@ -31,7 +32,7 @@ function Projetos() {
         <p className='frase-SFOME'>"A única forma de chegar ao impossível é acreditar que é possível"</p>
       
       </section>
-     
+     </div>
       </>
     )
   }

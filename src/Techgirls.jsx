@@ -3,6 +3,7 @@ import {} from 'react'
 function Techgirls() {
     return (
       <>
+      <div className='container'>
       <section className='conteudo-techgirls'>
       <h2 className='titulo-tech'>Quem nós somos?</h2>
       <div className='conteudo-tech-imagem'>
@@ -20,7 +21,7 @@ Nossa missão vai além do nosso próprio sucesso. Estamos comprometidas em abri
         <h2>Conheça nossos projetos!</h2>
         <a href="Projetos"><img src="./src/assets/ImagemFundoBotao.png" className='BotaoFundo' /></a>
       </div>
-      
+      </div>
       </>
     )
   }

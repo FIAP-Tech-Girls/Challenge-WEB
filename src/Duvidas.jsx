@@ -3,6 +3,7 @@ import {} from 'react'
 function Duvidas() {
     return (
     <>
+    <div className='container'>
     <img src="./src/assets/ImagensDuvidas/DuvidasFrequentes.png" className='ImagemDuvidas' />
     <center><div className='duvidasFrequentes'>
        <div className='perguntas'>
@@ -93,7 +94,7 @@ function Duvidas() {
             </form>
         </center>
     </div>
-
+    </div>
     </>
     )
   }
