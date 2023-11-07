@@ -21,7 +21,7 @@ function Home() {
       <section className='conteudo-home'>
         <div className='imagem-home'>
           <h1>SCROLL DOWN</h1>
-          <img id="imagemScroll" src="./src/assets/ImagensHome/imagemScrolldown.png" />
+          <img className="imagemScroll" src="./src/assets/ImagensHome/imagemScrolldown.png" />
           <button id='scroll'><img src="./src/assets/ImagensHome/seta.png"/></button>
         </div>
         

@@ -1,18 +1,18 @@
 @import "./variavel";
 
 
-
-.container{
+body{
     background-image: linear-gradient(to right, #B698BE,#D5C5E0,#CDBDD7);
-
+}
+.container{
     .conteudo-home{
         .imagem-home{ 
-            .imagem-home #imagemScroll{
+            .imagemScroll{
                 width: 100%; 
                 display: block;
             }
 
-            .imagem-home button{
+            button{
                 border: none;
                 background-color: transparent;
                 cursor: pointer;
@@ -29,18 +29,18 @@
                 z-index: 10;
             }
 
-            .imagem-home button img{
+            img{
                 width: 70px;
             
             }
 
-            .imagem-home button:hover{
+            button:hover{
                 transform: scale(1.1);
             }
 
-            .imagem-home h1{
+            h1{
                 position: absolute;
-                color: white;
+                color: $titulo-img;
                 font-family: 'Jura', sans-serif;
                 font-size: 70px;
                 top: 65%;
