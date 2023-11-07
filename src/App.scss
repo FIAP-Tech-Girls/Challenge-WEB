@@ -81,7 +81,7 @@ body{
         margin-bottom: 40px;
 
         .texto-home{
-            font-family: 'Inika',sans-serif;
+            font-family: $legenda;
             font-size: 28px;
             display: flex;
             flex-direction: column;
@@ -115,7 +115,7 @@ body{
 
             .legenda-home1{
                 text-align: center;
-                font-family: 'Inika',sans-serif;
+                font-family: $legenda;
                 font-size: 19px;
                 color: rgb(0, 0, 0);
                 font-weight: bold;
@@ -125,7 +125,7 @@ body{
 
             .legenda-home2{
                 text-align: center;
-                font-family: 'Inika',sans-serif;
+                font-family: $legenda;
                 font-size: 19px;
                 color: rgb(0, 0, 0);
                 font-weight: bold;
@@ -135,7 +135,7 @@ body{
 
             .legenda-home3{
                 text-align: center;
-                font-family: 'Inika',sans-serif;
+                font-family: $legenda;
                 font-size: 19px;
                 color: rgb(0, 0, 0);
                 font-weight: bold;
@@ -161,7 +161,7 @@ body{
             cursor: pointer;
             width: 200px;
             height: 50px;
-            box-shadow: 5px 5px 4px 0px #351C5970;
+            box-shadow: 5px 5px 4px 0px $box-color;
         }
     }
 
@@ -193,6 +193,7 @@ body{
             text-align: center;
         }
     }
+
 
     .ImagemDuvidas{
         width: 100%;
@@ -545,7 +546,7 @@ body{
 
                 .grid-item1{
                     background-color: #B698BE;
-                    box-shadow: 10px 10px 4px 0px #351C5970;
+                    box-shadow: 10px 10px 4px 0px $box-color;
                     margin-right: 30px;
                     border-radius: 30px;
                     
@@ -553,7 +554,7 @@ body{
                 
                 .grid-item2{
                     background-color: #B698BE;
-                    box-shadow: 10px 10px 4px 0px #351C5970;
+                    box-shadow: 10px 10px 4px 0px $box-color;
                     border-radius: 30px;
                 }
             }
