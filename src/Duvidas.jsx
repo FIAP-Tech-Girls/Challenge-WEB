@@ -82,7 +82,7 @@ function Duvidas() {
 
     <div className='formulario'>
         <center>
-            <form name='formularioDuvidas'>
+            <form className="form" name='formularioDuvidas'>
                 <h3>FORMULÁRIO</h3>
                 <label htmlFor="name">Nome:</label> <input type="text" placeholder='Insira seu nome' id='nomeUsuario' required /> <br />
                 <label htmlFor="email">Email:</label> <input type="email" placeholder='Insira seu email' id='emailUsuario' required /> <br />

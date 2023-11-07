@@ -17,6 +17,7 @@ function Home() {
       
       //<form onSubmit={Scrolldown}>
       <>
+      <div className='container'>
       <section className='conteudo-home'>
         <div className='imagem-home'>
           <h1>SCROLL DOWN</h1>
@@ -52,6 +53,7 @@ function Home() {
           <a href="./Projetos"><button className='botaoHome' id="botaoNossosProjetos">Nossos projetos</button></a>
         </div>
       </section>
+      </div>
       </>
     )
   }

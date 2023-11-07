@@ -9,6 +9,7 @@ import Login from './Login'
 import Cadastro from './Cadastro'
 import Footer from './Footer'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import './App.scss'
 
  
 
