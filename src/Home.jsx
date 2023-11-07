@@ -2,26 +2,26 @@ import {} from 'react';
 
 function Home() {
 
-  function Scrolldown(){
+  /*function Scrolldown(){
     const paraScrollar = document.getElementById('scroll');
     const secaoAlvo = document.getElementById('conteudo-home-imagem')
 
     paraScrollar.addEventListener('click',function(){
       secaoAlvo.scrollIntoView({behavior: 'smooth',duration: 1.8});
-    });
-  }
+    });*/
+  
   
 
 
   return (
       
-      <form onSubmit={Scrolldown}>
-
+      //<form onSubmit={Scrolldown}>
+      <>
       <section className='conteudo-home'>
         <div className='imagem-home'>
           <h1>SCROLL DOWN</h1>
-          <img src="./src/assets/ImagensHome/imagemScrolldown.png" />
-          <button id='scroll'><img src="./src/assets/ImagensHome/seta2.png"/></button>
+          <img id="imagemScroll" src="./src/assets/ImagensHome/imagemScrolldown.png" />
+          <button id='scroll'><img src="./src/assets/ImagensHome/seta.png"/></button>
         </div>
         
 
@@ -52,7 +52,7 @@ function Home() {
           <a href="./Projetos"><button className='botaoHome' id="botaoNossosProjetos">Nossos projetos</button></a>
         </div>
       </section>
-      </form>
+      </>
     )
   }
 
