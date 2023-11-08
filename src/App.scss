@@ -1,9 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
 @import "./variavel";
 
+
+*{
+    margin: 0;
+    padding: 0;
+}
 
 body{
     background-image: linear-gradient(to right, #B698BE,#D5C5E0,#CDBDD7);
 }
+
 .container{
     .conteudo-home{
         .imagem-home{ 
@@ -84,7 +93,7 @@ body{
             font-family: $legenda;
             font-size: 28px;
             display: flex;
-            flex-direction: column;
+            flex-direction: column; 
             gap: 32px;
             padding: 30px;
         }
@@ -107,7 +116,7 @@ body{
             overflow-x: auto;
         }
 
-        .lampada-home img{
+        img{
             height: 100px;
             padding: 14px;
             margin-left: 60px;
@@ -192,6 +201,18 @@ body{
             padding: 10px;
             text-align: center;
         }
+
+        .FormularioLogin-p{
+            font-family: 'Inika', sans-serif;
+            text-align: center;
+            padding: 20px;
+        
+        }
+        
+        .FormularioLogin-a{
+            text-decoration: none;
+            color: #F1BEFF;
+        }
     }
 
 
@@ -221,7 +242,7 @@ body{
                 text-align: center;
             }
             
-            .perguntas label{
+            label{
                 display: inline-block;
                 font-weight: bold;
                 margin-bottom: 5px;
@@ -294,31 +315,60 @@ body{
         margin-bottom: 20px;
     }
 
-    .FormularioLogin{
+    .FormularioLogin-form{
+        background-color: #391BA6;
+        width: 400px;
+        height: 300px;
+        border-radius: 10px;
+        padding: 30px;
+        color: white;
+
+        .FormularioLogin{
         display: flex;
         justify-content: center;
         padding: 20px;
 
-        .TituloLogin{
-            text-align: center;
-            font-family: $legenda;
-            padding: 20px;
-        }
-        
-        .emailLogin{
-            padding: 10px;
-            text-align: center;
-            font-family: $legenda;
-        }
-        
-        .senhaLogin{
-            padding: 10px;
-            text-align: center;
-        }
-        
+            .TituloLogin{
+                text-align: center;
+                font-family: $legenda;
+                padding: 20px;
+            }
+            
+            .emailLogin{
+                padding: 10px;
+                text-align: center;
+                font-family: $legenda;
+            }
+            
+            .senhaLogin{
+                padding: 10px;
+                text-align: center;
+            }
+            
+            .FormularioLogin-p{
+                font-family: 'Inika', sans-serif;
+                text-align: center;
+                padding: 20px;
 
+                .FormularioLogin-a{
+                    text-decoration: none;
+                    color: #F1BEFF;
+                }
+            }
+            
+            #enviarDuvida{
+                color: rgb(0, 0, 0);
+                padding: 15px;
+                margin-top: 20px;
+                background-color: #F085F2;
+                border-radius: 10px;
+                
+            }
+            
+        }   
     }
 
+    
     .legenda-formulario{
         font-family: $legenda;
         text-align: center;
@@ -330,7 +380,7 @@ body{
         justify-content: flex-end;
         margin-top: 10px;
         
-            #Item-NavL{
+            .Item-NavL{
                 font-family: $legenda;
                 color: $texto-padrao;
                 font-weight: 400;
@@ -361,7 +411,7 @@ body{
             justify-content: flex-end;
             margin-left: 300px;
 
-            #Item-Nav{
+            .Item-Nav{
                 font-family: $titulo;
                 color: $texto-padrao;
                 font-weight: 400;
@@ -372,7 +422,7 @@ body{
                 margin-left: 2px;
             }
             
-            #Item-Nav:hover {
+            .Item-Nav:hover {
                 color: $cor-formulario;
             }
             
@@ -381,6 +431,11 @@ body{
     }
 
     .conteudo-projetos{
+
+        .BotaoFundo{
+            width: 100%;
+        }
+
         .titulo-projetos{
             font-family: $titulo;
             text-align: center;
@@ -404,37 +459,22 @@ body{
                 padding: 30px;
             }
         }
-        .Imagem-Botao{
-            width: 100%;
-            margin-bottom: 90px;
-            margin-top: 50px
 
-            h2{
-                position: absolute;
-                color: white;
-                font-family: $legenda;
-                right: 0;
-                text-align: center;
-            
-            }
+        .titulo-projetos{
+            font-family: 'Love Ya Like A Sister', sans-serif;
+            text-align: center;
+            font-size: 35px;
+            margin-top: 25px;
         }
-        .conteudo-projetos-SFOME-texto{
+
+        .conteudo-projetos-texto{
             display: flex;
             flex-direction: row;
             align-items: center;
             justify-content: space-around;
             padding: 24px;
 
-            .titulo-projetos-SFOME{
-                display: block;
-                font-family: $titulo;
-                font-size: 40px;
-                text-align: center;
-                margin-top: 50px;
-            
-            }
-            
-            .texto-projetos-SFOME{
+            .texto-projetos{
                 font-family: $legenda;
                 font-size: 28px;
                 display: flex;
@@ -442,8 +482,59 @@ body{
                 gap: 32px;
                 padding: 30px;
             }
+        }
+
+        .Imagem-Botao{
+            width: 100%;
+            margin-bottom: 90px;
+            margin-top: 50px;
+
+            .Imagem-Botao-titulo{
+                position: absolute;
+                color: white;
+                font-family: $legenda;
+                right: 0;
+                text-align: center;
+            
+            }
+
+            .BotaoFundo{
+                width: 100%;
+            }
+        }
+
+        .BotaoFundo{
+            width: 100%;
+        }
+
+        .conteudo-projetos-SFOME-texto{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            padding: 24px;
+
+                
+                .titulo-projetos-SFOME{
+                    display: block;
+                    font-family: $titulo;
+                    font-size: 40px;
+                    text-align: center;
+                    margin-top: 50px;
+                
+                }
+            
+                .texto-projetos-SFOME{
+                    font-family: $legenda;
+                    font-size: 28px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 32px;
+                    padding: 30px;
+                }
             
         }
+        
         .frase-SFOME{
             font-family: $titulo;
             text-align: center;
@@ -494,9 +585,9 @@ body{
     .Imagem-Botao{
         width: 100%;
         margin-bottom: 90px;
-        margin-top: 50px
+        margin-top: 50px;
 
-        h2{
+        .Imagem-Botao-tech-texto{
             position: absolute;
             color: white;
             font-family: $legenda;
@@ -504,9 +595,19 @@ body{
             text-align: center;
         
         }
+
+        .BotaoFundo{
+            width: 100%;
+        }
+        
     }
 
     .conteudo-tiana{
+
+        .BotaoFundo{
+            width: 100%;
+        }
+
         .titulo-tiana{
             font-family: $titulo;
             text-align: center;
@@ -542,20 +643,54 @@ body{
                 flex-direction: row;
                 align-items: center;
                 justify-content: center;
-                overflow-x: auto;  
+                overflow-x: auto;
+
 
                 .grid-item1{
                     background-color: #B698BE;
                     box-shadow: 10px 10px 4px 0px $box-color;
                     margin-right: 30px;
                     border-radius: 30px;
+
+                    .imagem1-tiana{
+                        height: 200px;
+                        padding: auto;
+                        padding: 14px;
+                        margin-left: 25px;
+                    }
                     
+                    .imagem-tiana-legenda{
+                        text-align: center;
+                        font-family: 'Inika',sans-serif;
+                        font-size: 18px;
+                        color: rgb(255, 255, 255);
+                        font-weight: bold;
+                        margin-bottom: 25%;
+                        
+                    }
                 }
                 
                 .grid-item2{
                     background-color: #B698BE;
                     box-shadow: 10px 10px 4px 0px $box-color;
                     border-radius: 30px;
+
+                    .imagem2-tiana{
+                        height: 200px;
+                        padding: auto;
+                        padding: 14px;
+                        margin-left: 50px;
+                    }
+
+                    .imagem-tiana-legenda2{
+                        text-align: center;
+                        font-family: 'Inika',sans-serif;
+                        font-size: 18px;
+                        color: rgb(255, 255, 255);
+                        font-weight: bold;
+                        margin-bottom: 25%;
+                        
+                    }
                 }
             }
             
@@ -564,6 +699,7 @@ body{
             }
         }
         .conteudo-tiana-solucao{
+
             .texto-tiana-solucao{
                 padding: 30px;
                 text-align: center;
@@ -571,17 +707,24 @@ body{
                 font-size: 30px;
                 margin-top: 50px;
             }
+
+            .conteudo-tiana-solucao-img{
+                height: 200px;
+            }
+
             .texto-solucao{
                 text-align: center;
                 padding: 20px;
 
-                h2{
+                .texto-solucao-h2{
                     font-family: $titulo;
                 }
                 
-                p{
+                .texto-solucao-p{
                     font-family: $legenda;
                     margin-top: 20px;
+                    font-size: 18px;
+                    font-weight: bold;
                 }
             }
         }

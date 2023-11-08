@@ -31,7 +31,7 @@ function Cadastro (){
         <>
         <div className="container">
         <div className="FormularioLogin">
-            <form onSubmit={handleSubmit}>
+            <form className="FormularioLogin-form" onSubmit={handleSubmit}>
                 <h1 className="TituloLogin">CADASTRO</h1>
                 <div className="emailLogin">
                     <label htmlFor="email2">Email:</label>

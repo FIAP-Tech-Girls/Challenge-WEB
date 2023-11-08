@@ -43,7 +43,7 @@ body{
 }
 
 
-#Item-NavL{
+.Item-NavL{
     font-family: 'Inika', sans-serif;
     color: black;
     font-weight: 400;
@@ -54,7 +54,7 @@ body{
 }
 
 
-#Item-Nav{
+.Item-Nav{
     font-family: 'Love Ya Like A Sister', sans-serif;
     color: black;
     font-weight: 400;
@@ -65,7 +65,7 @@ body{
     margin-left: 2px;
 }
 
-#Item-Nav:hover {
+.Item-Nav:hover {
     color: #391BA6;
 }
 

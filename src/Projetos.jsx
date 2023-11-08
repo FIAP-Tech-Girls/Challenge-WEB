@@ -17,7 +17,7 @@ function Projetos() {
         <img src="./src/assets/ImagensProjetos/Imagem2.png" />
       </div>
       <div className='Imagem-Botao'>
-        <h2>Conheça mais sobre o Projeto e as soluções!</h2>
+        <h2 className='Imagem-Botao-titulo'>Conheça mais sobre o Projeto e as soluções!</h2>
         <a href="Tiana"><img src="./src/assets/ImagemFundoBotao.png" className='BotaoFundo' /></a>
       </div>
         <img src="./src/assets/ImagensProjetos/TituloSFome.png" className='BotaoFundo' />

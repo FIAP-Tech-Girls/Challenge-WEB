@@ -25,7 +25,7 @@ function FormularioLogin (){
         <>
         <div className='container'>
         <div className="FormularioLogin">
-            <form onSubmit={handleSubmit}>
+            <form className="FormularioLogin-form" onSubmit={handleSubmit}>
                 <h1 className="TituloLogin">LOGIN</h1>
                 <div className="emailLogin">
                     <label htmlFor="email1">Email:</label>
@@ -35,10 +35,10 @@ function FormularioLogin (){
                     <label htmlFor="senha">Senha:</label>
                     <input type="password" id="senha" value={senha} onChange={handleSenhachange} placeholder="Insira a senha" required />
                 </div>
-                <p>Esqueceu a senha? <a href="#">Clique aqui!</a></p>
-                <div>
-                    <center><input type="submit" value="Enviar" id='enviarDuvida' required/></center>
-                </div>
+                <p className="FormularioLogin-p">Esqueceu a senha? <a className="FormularioLogin-a" href="#">Clique aqui!</a></p>
+
+                    <center><input  className="FormularioLogin-botao" type="submit" value="Enviar" id='enviarDuvida' required/></center>
+
             </form>
         </div>
         

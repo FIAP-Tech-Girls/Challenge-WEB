@@ -24,10 +24,10 @@ function Tiana() {
       </div>
       <div className='conteudo-tiana-solucao'>
         <h2 className='texto-tiana-solucao'>Para integrar na nossa solução</h2>
-        <center><img src="./src/assets/ImagensTiana/ideia.png"  /></center>
+        <center><img className='conteudo-tiana-solucao-img' src="./src/assets/ImagensTiana/ideia.png"  /></center>
         <div className='texto-solucao'>
-          <h2>ESP32 nas ruas</h2>
-          <p>A ideia é criar um projeto de escala reduzida da Avenida Paulista, que é uma das vias mais movimentadas da cidade de São Paulo,<br />
+          <h2 className='texto-solucao-h2'>ESP32 nas ruas</h2>
+          <p className='texto-solucao-p'>A ideia é criar um projeto de escala reduzida da Avenida Paulista, que é uma das vias mais movimentadas da cidade de São Paulo,<br />
              com grande fluxo de veículos e pessoas durante a semana, em praticamente todos os horários. Para fins de testes e experimentação, <br />
              planejamos construir uma maquete que será integrada com o sistema ESP32, um microcontrolador versátil e poderoso, <br />
              para simular um exemplo de aplicação de tráfego inteligente. Nesse cenário, estamos focados em simular o funcionamento de um <br />
