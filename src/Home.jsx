@@ -1,14 +1,13 @@
 import {} from 'react';
+//importar a biblioteca para usar o scroll - npm install react-scroll
+import { animateScroll as scroll } from 'react-scroll';
+
 
 function Home() {
 
-  /*function Scrolldown(){
-    const paraScrollar = document.getElementById('scroll');
-    const secaoAlvo = document.getElementById('conteudo-home-imagem')
-
-    paraScrollar.addEventListener('click',function(){
-      secaoAlvo.scrollIntoView({behavior: 'smooth',duration: 1.8});
-    });*/
+  const handleScroll = () => {
+    scroll.scrollMore(600,10);
+  };
   
   
 
@@ -22,7 +21,8 @@ function Home() {
         <div className='imagem-home'>
           <h1>SCROLL DOWN</h1>
           <img className="imagemScroll" src="./src/assets/ImagensHome/imagemScrolldown.png" />
-          <button id='scroll'><img src="./src/assets/ImagensHome/seta.png"/></button>
+          {/* chamando o evento handleScroll para scrollar*/}
+          <button id='scroll' onClick={handleScroll}><img src="./src/assets/ImagensHome/seta.png"/></button>
         </div>
         
 
@@ -55,11 +55,11 @@ function Home() {
       </section>
       </div>
       </>
-    )
+    );
   }
 
 
   
-  export default Home
+  export default Home;
 
   
