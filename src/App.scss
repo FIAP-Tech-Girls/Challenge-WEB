@@ -393,8 +393,8 @@ body{
     }
 
     .NavBar{
-        padding-bottom: 24px;
         display: flex;
+        justify-content: space-between;
         flex-direction: row;
         align-items: center;
 
@@ -404,12 +404,12 @@ body{
             align-items: center;
             justify-content: flex-start;
             height: 180px;
-            margin-right: 80px;
+            
         }
         
         .NavBar-item{
             justify-content: flex-end;
-            margin-left: 300px;
+            
 
             .Item-Nav{
                 font-family: $titulo;
@@ -730,6 +730,56 @@ body{
         }
     }
 
+
+   
 }
+
+
+ //Tablet
+ @media screen and (min-width: 900px) and (max-width: 1023px) {
+   .container{
+
+    .NavBarLogin{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 10px;
+        
+            .Item-NavL{
+                font-weight: 400;
+                font-size: 20px;
+                padding-right: 20px;
+            }
+
+    }
+
+    .NavBar{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+
+        .NavBar-logo{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+            height: 180px;
+            
+        }
+        
+        .NavBar-item{
+            justify-content: flex-end;
+            
+
+            .Item-Nav{
+                font-weight: 400;
+                font-size: 20px;
+                padding: 24px;
+            }
+            
+        }
+    }
+   }
+}   
 
 
