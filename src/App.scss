@@ -4,24 +4,24 @@
 @import "./variavel";
 
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
-    background-image: linear-gradient(to right, #B698BE,#D5C5E0,#CDBDD7);
+body {
+    background-image: linear-gradient(to right, #B698BE, #D5C5E0, #CDBDD7);
 }
 
-.container{
-    .conteudo-home{
-        .imagem-home{ 
-            .imagemScroll{
-                width: 100%; 
+.container {
+    .conteudo-home {
+        .imagem-home {
+            .imagemScroll {
+                width: 100%;
                 display: block;
             }
 
-            button{
+            button {
                 border: none;
                 background-color: transparent;
                 cursor: pointer;
@@ -30,58 +30,60 @@ body{
                 position: absolute;
                 top: 5;
                 bottom: 0;
-                left:0;
-                right:0;
+                left: 0;
+                right: 0;
                 text-align: center;
                 margin-top: auto;
                 margin-bottom: auto;
                 z-index: 10;
             }
 
-            img{
+            img {
                 width: 70px;
-            
+
             }
 
-            button:hover{
+            button:hover {
                 transform: scale(1.1);
             }
 
-            h1{
+            h1 {
                 position: absolute;
                 color: $titulo-img;
                 font-family: 'Jura', sans-serif;
                 font-size: 70px;
                 top: 65%;
                 left: 35%;
-                
+
             }
 
-            .imagem1-home{
-                padding:10px;
+            .imagem1-home {
+                padding: 10px;
             }
         }
     }
-    .conteudo-home-imagem{
+
+    .conteudo-home-imagem {
         .titulo-home {
             font-family: $titulo;
             text-align: center;
             font-size: 35px;
             margin-top: 40px;
         }
-        .imagem1-home{
-            padding:10px;
+
+        .imagem1-home {
+            padding: 10px;
         }
     }
 
-    .titulo-home-texto{
+    .titulo-home-texto {
         font-family: $titulo;
         text-align: center;
         font-size: 35px;
         margin-top: 40px;
     }
 
-    .conteudo-home-texto{
+    .conteudo-home-texto {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -89,26 +91,26 @@ body{
         padding: 20px;
         margin-bottom: 40px;
 
-        .texto-home{
+        .texto-home {
             font-family: $legenda;
             font-size: 28px;
             display: flex;
-            flex-direction: column; 
+            flex-direction: column;
             gap: 32px;
             padding: 30px;
         }
     }
 
-    .conteudo-home-imagem-reconhecimentos{
-        .titulo-reconhecimentos{
+    .conteudo-home-imagem-reconhecimentos {
+        .titulo-reconhecimentos {
             padding: 30px;
             text-align: center;
             font-family: $titulo;
             font-size: 35px;
             margin-top: 50px;
         }
-    
-        .lampada-home{
+
+        .lampada-home {
             padding: 15px;
             display: flex;
             align-items: center;
@@ -116,51 +118,51 @@ body{
             overflow-x: auto;
         }
 
-        img{
+        img {
             height: 100px;
             padding: 14px;
             margin-left: 60px;
         }
 
-            .legenda-home1{
-                text-align: center;
-                font-family: $legenda;
-                font-size: 19px;
-                color: $cor-legenda;
-                font-weight: bold;
-                margin-right: 30px;
-                
-            }
+        .legenda-home1 {
+            text-align: center;
+            font-family: $legenda;
+            font-size: 19px;
+            color: $cor-legenda;
+            font-weight: bold;
+            margin-right: 30px;
 
-            .legenda-home2{
-                text-align: center;
-                font-family: $legenda;
-                font-size: 19px;
-                color: $cor-legenda;
-                font-weight: bold;
-                margin-right: 20px;
-                
-            }
+        }
 
-            .legenda-home3{
-                text-align: center;
-                font-family: $legenda;
-                font-size: 19px;
-                color:$cor-legenda;
-                font-weight: bold;
-                margin-left: 20px;
+        .legenda-home2 {
+            text-align: center;
+            font-family: $legenda;
+            font-size: 19px;
+            color: $cor-legenda;
+            font-weight: bold;
+            margin-right: 20px;
 
-            }
+        }
+
+        .legenda-home3 {
+            text-align: center;
+            font-family: $legenda;
+            font-size: 19px;
+            color: $cor-legenda;
+            font-weight: bold;
+            margin-left: 20px;
+
+        }
 
     }
 
-    .botoes{
+    .botoes {
         display: flex;
-        padding:10px;
-        margin-top:30px;
+        padding: 10px;
+        margin-top: 30px;
         justify-content: center;
 
-        .botaoHome{
+        .botaoHome {
             margin-right: 15px;
             background-color: #9c89a9;
             border: none;
@@ -174,92 +176,92 @@ body{
         }
     }
 
-    .FormularioLogin{
+    .FormularioLogin {
         display: flex;
         justify-content: center;
         padding: 20px;
 
-        .TituloLogin{
+        .TituloLogin {
             text-align: center;
             font-family: $legenda;
             padding: 20px;
         }
 
-        .emailLogin{
+        .emailLogin {
             padding: 10px;
             text-align: center;
             font-family: $legenda;
         }
 
-        .nomeCadastro{
+        .nomeCadastro {
             padding: 10px;
             text-align: center;
             font-family: $legenda;
         }
 
-        .senhaLogin{
+        .senhaLogin {
             padding: 10px;
             text-align: center;
         }
 
-        .FormularioLogin-p{
+        .FormularioLogin-p {
             font-family: 'Inika', sans-serif;
             text-align: center;
             padding: 20px;
-        
+
         }
-        
-        .FormularioLogin-a{
+
+        .FormularioLogin-a {
             text-decoration: none;
             color: #F1BEFF;
         }
     }
 
 
-    .ImagemDuvidas{
+    .ImagemDuvidas {
         width: 100%;
     }
 
-    .duvidasFrequentes{
+    .duvidasFrequentes {
         justify-content: center;
         padding: 20px;
-        
-        p{
-        font-size: 20px;
-        text-align: justify;
-        font-family: $legenda;
+
+        p {
+            font-size: 20px;
+            text-align: justify;
+            font-family: $legenda;
         }
 
-            .perguntas{
-                border-bottom: 1px solid #ccc;
-                padding: 10px;
-                width: 58%;
-            }
-            
-            .perguntas input,
-            .perguntas .respostas{
-                display: none;
-                text-align: center;
-            }
-            
-            label{
-                display: inline-block;
-                font-weight: bold;
-                margin-bottom: 5px;
-                width: 100%;
-                font-family: $legenda;
-                text-align: center;
-                font-size: 20px;
-                cursor: pointer;
-            }
-            
-            .perguntas input:checked ~ .respostas{
-                display: block;
-            }
+        .perguntas {
+            border-bottom: 1px solid #ccc;
+            padding: 10px;
+            width: 58%;
+        }
+
+        .perguntas input,
+        .perguntas .respostas {
+            display: none;
+            text-align: center;
+        }
+
+        label {
+            display: inline-block;
+            font-weight: bold;
+            margin-bottom: 5px;
+            width: 100%;
+            font-family: $legenda;
+            text-align: center;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .perguntas input:checked~.respostas {
+            display: block;
+        }
 
     }
 
-    .tituloFormulario{
+    .tituloFormulario {
         text-align: center;
         width: 58%;
         justify-content: center;
@@ -268,7 +270,7 @@ body{
         padding: 30px;
     }
 
-    .form{
+    .form {
         background-color: $cor-formulario;
         width: 500px;
         height: 500px;
@@ -276,7 +278,7 @@ body{
         padding: 30px;
         color: white;
 
-        h3{
+        h3 {
             font-size: 25px;
             font-family: $legenda;
             color: white;
@@ -285,29 +287,29 @@ body{
             background-color: $cor-formulario;
         }
 
-        #duvida{
+        #duvida {
             width: 500px;
             height: 200px;
             border-radius: 5px;
         }
 
-        #enviarDuvida{
+        #enviarDuvida {
             color: $cor-legenda;
             padding: 15px;
             margin-top: 20px;
             background-color: #F085F2;
             border-radius: 10px;
-            
+
         }
 
-        ::placeholder{
+        ::placeholder {
             color: $texto-padrao;
             text-align: center;
         }
 
     }
 
-    .copy-footer{
+    .copy-footer {
         text-align: center;
         padding: 20px;
         font-size: 20px;
@@ -315,7 +317,7 @@ body{
         margin-bottom: 20px;
     }
 
-    .FormularioLogin-form{
+    .FormularioLogin-form {
         background-color: #391BA6;
         width: 400px;
         height: 300px;
@@ -323,95 +325,95 @@ body{
         padding: 30px;
         color: white;
 
-        .FormularioLogin{
-        display: flex;
-        justify-content: center;
-        padding: 20px;
+        .FormularioLogin {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
 
-            .TituloLogin{
+            .TituloLogin {
                 text-align: center;
                 font-family: $legenda;
                 padding: 20px;
             }
-            
-            .emailLogin{
+
+            .emailLogin {
                 padding: 10px;
                 text-align: center;
                 font-family: $legenda;
             }
-            
-            .senhaLogin{
+
+            .senhaLogin {
                 padding: 10px;
                 text-align: center;
             }
-            
-            .FormularioLogin-p{
+
+            .FormularioLogin-p {
                 font-family: 'Inika', sans-serif;
                 text-align: center;
                 padding: 20px;
 
-                .FormularioLogin-a{
+                .FormularioLogin-a {
                     text-decoration: none;
                     color: #F1BEFF;
                 }
             }
-            
-            #enviarDuvida{
+
+            #enviarDuvida {
                 color: rgb(0, 0, 0);
                 padding: 15px;
                 margin-top: 20px;
                 background-color: #F085F2;
                 border-radius: 10px;
-                
+
             }
-            
-        }   
+
+        }
     }
 
-    
-    .legenda-formulario{
+
+    .legenda-formulario {
         font-family: $legenda;
         text-align: center;
         padding: 25px;
     }
 
-    .NavBarLogin{
+    .NavBarLogin {
         display: flex;
         justify-content: flex-end;
         margin-top: 10px;
-        
-            .Item-NavL{
-                font-family: $legenda;
-                color: $texto-padrao;
-                font-weight: 400;
-                font-size: 18px;
-                padding-right: 20px;
-                font-weight: bold;
-                text-decoration: none;
-            }
+
+        .Item-NavL {
+            font-family: $legenda;
+            color: $texto-padrao;
+            font-weight: 400;
+            font-size: 18px;
+            padding-right: 20px;
+            font-weight: bold;
+            text-decoration: none;
+        }
 
     }
 
-    .NavBar{
+    .NavBar {
         display: flex;
         justify-content: space-between;
         flex-direction: row;
         align-items: center;
 
-        .NavBar-logo{
+        .NavBar-logo {
             display: flex;
             flex-direction: row;
             align-items: center;
             justify-content: flex-start;
             height: 180px;
-            
-        }
-        
-        .NavBar-item{
-            justify-content: flex-end;
-            
 
-            .Item-Nav{
+        }
+
+        .NavBar-item {
+            justify-content: flex-end;
+
+
+            .Item-Nav {
                 font-family: $titulo;
                 color: $texto-padrao;
                 font-weight: 400;
@@ -421,36 +423,36 @@ body{
                 text-decoration: none;
                 margin-left: 2px;
             }
-            
+
             .Item-Nav:hover {
                 color: $cor-formulario;
             }
-            
-            
+
+
         }
     }
 
-    .conteudo-projetos{
+    .conteudo-projetos {
 
-        .BotaoFundo{
+        .BotaoFundo {
             width: 100%;
         }
 
-        .titulo-projetos{
+        .titulo-projetos {
             font-family: $titulo;
             text-align: center;
             font-size: 35px;
             margin-top: 25px;
         }
-        
-        .conteudo-projetos-texto{
+
+        .conteudo-projetos-texto {
             display: flex;
             flex-direction: row;
             align-items: center;
             justify-content: space-around;
             padding: 24px;
 
-            .texto-projetos{
+            .texto-projetos {
                 font-family: $legenda;
                 font-size: 28px;
                 display: flex;
@@ -460,21 +462,21 @@ body{
             }
         }
 
-        .titulo-projetos{
+        .titulo-projetos {
             font-family: 'Love Ya Like A Sister', sans-serif;
             text-align: center;
             font-size: 35px;
             margin-top: 25px;
         }
 
-        .conteudo-projetos-texto{
+        .conteudo-projetos-texto {
             display: flex;
             flex-direction: row;
             align-items: center;
             justify-content: space-around;
             padding: 24px;
 
-            .texto-projetos{
+            .texto-projetos {
                 font-family: $legenda;
                 font-size: 28px;
                 display: flex;
@@ -484,58 +486,58 @@ body{
             }
         }
 
-        .Imagem-Botao{
+        .Imagem-Botao {
             width: 100%;
             margin-bottom: 90px;
             margin-top: 50px;
 
-            .Imagem-Botao-titulo{
+            .Imagem-Botao-titulo {
                 position: absolute;
                 color: white;
                 font-family: $legenda;
                 right: 0;
                 text-align: center;
-            
+
             }
 
-            .BotaoFundo{
+            .BotaoFundo {
                 width: 100%;
             }
         }
 
-        .BotaoFundo{
+        .BotaoFundo {
             width: 100%;
         }
 
-        .conteudo-projetos-SFOME-texto{
+        .conteudo-projetos-SFOME-texto {
             display: flex;
             flex-direction: row;
             align-items: center;
             justify-content: space-around;
             padding: 24px;
 
-                
-                .titulo-projetos-SFOME{
-                    display: block;
-                    font-family: $titulo;
-                    font-size: 40px;
-                    text-align: center;
-                    margin-top: 50px;
-                
-                }
-            
-                .texto-projetos-SFOME{
-                    font-family: $legenda;
-                    font-size: 28px;
-                    display: flex;
-                    flex-direction: column;
-                    gap: 32px;
-                    padding: 30px;
-                }
-            
+
+            .titulo-projetos-SFOME {
+                display: block;
+                font-family: $titulo;
+                font-size: 40px;
+                text-align: center;
+                margin-top: 50px;
+
+            }
+
+            .texto-projetos-SFOME {
+                font-family: $legenda;
+                font-size: 28px;
+                display: flex;
+                flex-direction: column;
+                gap: 32px;
+                padding: 30px;
+            }
+
         }
-        
-        .frase-SFOME{
+
+        .frase-SFOME {
             font-family: $titulo;
             text-align: center;
             font-size: 30px;
@@ -543,20 +545,21 @@ body{
         }
     }
 
-    .conteudo-techgirls{
-        .titulo-tech{
+    .conteudo-techgirls {
+        .titulo-tech {
             font-family: $titulo;
             text-align: center;
             font-size: 35px;
         }
-        .conteudo-tech-imagem{
+
+        .conteudo-tech-imagem {
             display: flex;
             flex-direction: row;
             align-items: center;
             justify-content: space-around;
             padding: 24px;
 
-            .texto-tech{
+            .texto-tech {
                 font-family: $legenda;
                 font-size: 28px;
                 display: flex;
@@ -565,14 +568,15 @@ body{
                 padding: 30px;
             }
         }
-        .conteudo-tech-imagem{
+
+        .conteudo-tech-imagem {
             display: flex;
             flex-direction: row;
             align-items: center;
             justify-content: space-around;
             padding: 24px;
 
-            .texto-tech{
+            .texto-tech {
                 font-family: $legenda;
                 font-size: 28px;
                 display: flex;
@@ -582,46 +586,48 @@ body{
             }
         }
     }
-    .Imagem-Botao{
+
+    .Imagem-Botao {
         width: 100%;
         margin-bottom: 90px;
         margin-top: 50px;
 
-        .Imagem-Botao-tech-texto{
+        .Imagem-Botao-tech-texto {
             position: absolute;
             color: white;
             font-family: $legenda;
             right: 0;
             text-align: center;
-        
+
         }
 
-        .BotaoFundo{
+        .BotaoFundo {
             width: 100%;
         }
-        
+
     }
 
-    .conteudo-tiana{
+    .conteudo-tiana {
 
-        .BotaoFundo{
+        .BotaoFundo {
             width: 100%;
         }
 
-        .titulo-tiana{
+        .titulo-tiana {
             font-family: $titulo;
             text-align: center;
             font-size: 35px;
             margin-top: 25px;
         }
-        .conteudo-tiana-imagem{
+
+        .conteudo-tiana-imagem {
             display: flex;
             flex-direction: row;
             align-items: center;
             justify-content: space-around;
             padding: 24px;
 
-            .texto-tiana{
+            .texto-tiana {
                 font-family: $legenda;
                 font-size: 28px;
                 display: flex;
@@ -630,14 +636,16 @@ body{
                 padding: 30px;
             }
         }
-        .conteudo-tiana-diferencial{
-            .texto-tiana-diferencial{
+
+        .conteudo-tiana-diferencial {
+            .texto-tiana-diferencial {
                 padding: 40px;
                 text-align: center;
                 font-family: $legenda;
                 font-size: 30px;
             }
-            .grid-container{
+
+            .grid-container {
                 padding: 15px;
                 display: flex;
                 flex-direction: row;
@@ -646,61 +654,62 @@ body{
                 overflow-x: auto;
 
 
-                .grid-item1{
+                .grid-item1 {
                     background-color: #B698BE;
                     box-shadow: 10px 10px 4px 0px $box-color;
                     margin-right: 30px;
                     border-radius: 30px;
 
-                    .imagem1-tiana{
+                    .imagem1-tiana {
                         height: 200px;
                         padding: auto;
                         padding: 14px;
                         margin-left: 25px;
                     }
-                    
-                    .imagem-tiana-legenda{
+
+                    .imagem-tiana-legenda {
                         text-align: center;
-                        font-family: 'Inika',sans-serif;
+                        font-family: 'Inika', sans-serif;
                         font-size: 18px;
                         color: rgb(255, 255, 255);
                         font-weight: bold;
                         margin-bottom: 25%;
-                        
+
                     }
                 }
-                
-                .grid-item2{
+
+                .grid-item2 {
                     background-color: #B698BE;
                     box-shadow: 10px 10px 4px 0px $box-color;
                     border-radius: 30px;
 
-                    .imagem2-tiana{
+                    .imagem2-tiana {
                         height: 200px;
                         padding: auto;
                         padding: 14px;
                         margin-left: 50px;
                     }
 
-                    .imagem-tiana-legenda2{
+                    .imagem-tiana-legenda2 {
                         text-align: center;
-                        font-family: 'Inika',sans-serif;
+                        font-family: 'Inika', sans-serif;
                         font-size: 18px;
                         color: rgb(255, 255, 255);
                         font-weight: bold;
                         margin-bottom: 25%;
-                        
+
                     }
                 }
             }
-            
-            .grid-container figcaption{
-                color:$texto-padrao;
+
+            .grid-container figcaption {
+                color: $texto-padrao;
             }
         }
-        .conteudo-tiana-solucao{
 
-            .texto-tiana-solucao{
+        .conteudo-tiana-solucao {
+
+            .texto-tiana-solucao {
                 padding: 30px;
                 text-align: center;
                 font-family: $titulo;
@@ -708,19 +717,19 @@ body{
                 margin-top: 50px;
             }
 
-            .conteudo-tiana-solucao-img{
+            .conteudo-tiana-solucao-img {
                 height: 200px;
             }
 
-            .texto-solucao{
+            .texto-solucao {
                 text-align: center;
                 padding: 20px;
 
-                .texto-solucao-h2{
+                .texto-solucao-h2 {
                     font-family: $titulo;
                 }
-                
-                .texto-solucao-p{
+
+                .texto-solucao-p {
                     font-family: $legenda;
                     margin-top: 20px;
                     font-size: 18px;
@@ -731,55 +740,259 @@ body{
     }
 
 
-   
+
 }
 
 
- //Tablet
- @media screen and (min-width: 900px) and (max-width: 1023px) {
-   .container{
 
-    .NavBarLogin{
-        display: flex;
-        justify-content: flex-end;
-        margin-top: 10px;
-        
-            .Item-NavL{
+@media screen and (min-width: 1024px) {
+    .container {
+        .NavBarLogin {
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 10px;
+
+            .Item-NavL {
                 font-weight: 400;
                 font-size: 20px;
                 padding-right: 20px;
             }
 
+        }
+
+        .NavBar {
+
+
+            .NavBar-logo {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: flex-start;
+                height: 180px;
+
+            }
+
+            .NavBar-item {
+                justify-content: flex-end;
+
+
+                .Item-Nav {
+                    font-weight: 400;
+                    font-size: 20px;
+                    padding: 24px;
+                }
+
+            }
+        }
+
+        .conteudo-home {
+            .imagem-home {
+                button {
+                    top: 30%;
+                }
+
+                h1 {
+                    top: 40%;
+                    left: 28%;
+                }
+            }
+        }
+
+        .conteudo-home-imagem {
+            .imagem1-home {
+                height: 350px;
+            }
+        }
+
+        .conteudo-home-texto {
+            img {
+                height: 350px;
+            }
+
+            .texto-home {
+                font-size: 22px;
+            }
+        }
+
+        .conteudo-techgirls {
+            .conteudo-tech-imagem {
+                img {
+                    height: 350px;
+                }
+
+                .texto-tech {
+                    font-size: 22px;
+                }
+            }
+        }
+
+        .conteudo-projetos {
+            .conteudo-projetos-texto {
+                img {
+                    height: 350px;
+                }
+
+                .texto-projetos {
+                    font-size: 22px;
+                }
+
+            }
+
+            .conteudo-projetos-SFOME-texto {
+                img {
+                    height: 300px;
+                }
+
+                .texto-projetos-SFOME {
+                    font-size: 22px;
+                }
+            }
+        }
+
+        .conteudo-tiana {
+            .conteudo-tiana-imagem {
+                .texto-tiana {
+                    font-size: 22px;
+                }
+
+                img {
+                    height: 350px;
+                }
+            }
+        }
     }
 
-    .NavBar{
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row;
-        align-items: center;
+}
 
-        .NavBar-logo{
+//Tablet
+@media screen and (min-width: 900px) and (max-width: 1023px) {
+    .container {
+        .NavBarLogin {
             display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: flex-start;
-            height: 180px;
-            
-        }
-        
-        .NavBar-item{
             justify-content: flex-end;
-            
+            margin-top: 10px;
 
-            .Item-Nav{
+            .Item-NavL {
                 font-weight: 400;
                 font-size: 20px;
-                padding: 24px;
+                padding-right: 20px;
             }
-            
+
+        }
+
+        .NavBar {
+
+
+            .NavBar-logo {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: flex-start;
+                height: 180px;
+
+            }
+
+            .NavBar-item {
+                justify-content: flex-end;
+
+
+                .Item-Nav {
+                    font-weight: 400;
+                    font-size: 20px;
+                    padding: 24px;
+                }
+
+            }
+        }
+
+        .conteudo-home {
+            .imagem-home {
+                button {
+                    top: 30%;
+                }
+
+                h1 {
+                    top: 40%;
+                    left: 25%;
+                }
+            }
+        }
+
+        .conteudo-home-imagem {
+            .imagem1-home {
+                height: 300px;
+            }
+        }
+
+        .conteudo-home-texto {
+            img {
+                height: 300px;
+            }
+
+            .texto-home {
+                font-size: 18px;
+            }
+        }
+
+        .conteudo-techgirls {
+            .conteudo-tech-imagem {
+                img {
+                    height: 300px;
+                }
+
+                .texto-tech {
+                    font-size: 18px;
+                }
+            }
+        }
+
+        .conteudo-projetos {
+            .conteudo-projetos-texto {
+                img {
+                    height: 300px;
+                }
+
+                .texto-projetos {
+                    font-size: 18px;
+                }
+
+            }
+
+            .conteudo-projetos-SFOME-texto {
+                img {
+                    height: 300px;
+                }
+
+                .texto-projetos-SFOME {
+                    font-size: 20px;
+                }
+            }
+        }
+
+        .conteudo-tiana {
+            .conteudo-tiana-imagem {
+                .texto-tiana {
+                    font-size: 18px;
+                }
+
+                img {
+                    height: 300px;
+                }
+            }
+
+            .conteudo-tiana-solucao {
+                .texto-solucao {
+                    .texto-solucao-p {
+                        font-size: 20px;
+                    }
+                }
+            }
+
         }
     }
-   }
-}   
+}
 
-
+//Smartphone
+@media screen and (max-width: 500px) {
+    
+}
