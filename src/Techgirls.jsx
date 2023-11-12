@@ -13,7 +13,7 @@ function Techgirls() {
       <div className='conteudo-tech-imagem'>
         <p className='texto-tech'>Acreditamos que a diversidade desempenha um papel fundamental na promoção da inovação, e estamos empenhadas em mostrar que as mulheres têm um espaço vital e merecido nesse campo. Queremos ser uma fonte de inspiração para jovens mulheres em todo o mundo, demonstrando que não existem limites para as realizações das mulheres na tecnologia.
 
-Nossa missão vai além do nosso próprio sucesso. Estamos comprometidas em abrir portas e criar oportunidades para as próximas gerações de mulheres na indústria da tecnologia. Acreditamos firmemente que, ao trabalharmos juntas e encorajarmos mais mulheres a seguirem suas paixões tecnológicas, podemos moldar um futuro mais inclusivo, inovador e equitativo para todos. Junte-se a nós nessa jornada emocionante em direção a um mundo tecnológico mais diversificado e igualitário.</p>
+        Nossa missão vai além do nosso próprio sucesso. Estamos comprometidas em abrir portas e criar oportunidades para as próximas gerações de mulheres na indústria da tecnologia. Acreditamos firmemente que, ao trabalharmos juntas e encorajarmos mais mulheres a seguirem suas paixões tecnológicas, podemos moldar um futuro mais inclusivo, inovador e equitativo para todos. Junte-se a nós nessa jornada emocionante em direção a um mundo tecnológico mais diversificado e igualitário.</p>
         <img src="./src/assets/ImagensTechGirl/Imagem2.png"  />
       </div>
       </section>

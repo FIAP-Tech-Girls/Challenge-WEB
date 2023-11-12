@@ -1113,5 +1113,57 @@ body {
             }
         }
     }
+
+    .conteudo-techgirls{
+        .titulo-tech{
+            font-size: 22px;
+        }
+
+        .conteudo-tech-imagem{
+            flex-direction: column;
+
+            img{
+                width: 300px;
+            }
+            p{
+                font-size: 20px !important;
+                text-align: justify;
+            }
+        }
+}
+
+    .conteudo-projetos{
+        .titulo-projetos{
+            font-size: 25px;
+        }
+
+        .conteudo-projetos-texto{
+            flex-direction: column;
+
+            img{
+                width: 300px;
+            }
+            p{
+                font-size: 20px !important;
+                text-align: justify;
+            }
+        }
+
+        .conteudo-projetos-SFOME-texto{
+            flex-direction: column;
+
+            img{
+                width: 300px;
+            }
+            p{
+                font-size: 20px !important;
+                text-align: justify;
+            }
+            
+            .texto-projetos{
+                
+            }
+        }
+    }
 }
 }
