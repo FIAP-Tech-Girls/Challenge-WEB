@@ -19,6 +19,7 @@ body {
             .imagemScroll {
                 width: 100%;
                 display: block;
+                align-items: center;
             }
 
             button {
@@ -38,9 +39,20 @@ body {
                 z-index: 10;
             }
 
-            img {
-                width: 70px;
 
+
+            button {
+                margin-top: 42%;
+            }
+
+            button img{
+                width: 50px;
+            }
+
+            h1 {
+                margin-top: 30%;
+                margin-left:5%;
+                margin-right:10%;
             }
 
             button:hover {
@@ -187,6 +199,24 @@ body {
             padding: 20px;
         }
 
+        label{
+            padding:10px
+        }
+
+        input{
+            height: 30px;
+            padding:5px;
+        }
+
+        #loginCadastro{
+            color: $cor-legenda;
+            padding: 10px;
+            border:none;
+            width: 100px;
+            background-color: #F085F2;
+            border-radius: 10px;
+        }
+
         .emailLogin {
             padding: 10px;
             text-align: center;
@@ -252,7 +282,10 @@ body {
             font-family: $legenda;
             text-align: center;
             font-size: 20px;
-            cursor: pointer;
+        }
+
+        input{
+            height: 30px;
         }
 
         .perguntas input:checked~.respostas {
@@ -287,16 +320,30 @@ body {
             background-color: $cor-formulario;
         }
 
+        label{
+            padding:10px;
+        }
+
+        input{
+            height: 10px;
+            margin:2px;
+            padding:10px;
+        }
+
         #duvida {
-            width: 500px;
-            height: 200px;
+            width: 400px;
+            height: 150px;
+            border:none;
             border-radius: 5px;
         }
 
         #enviarDuvida {
             color: $cor-legenda;
-            padding: 15px;
-            margin-top: 20px;
+            padding: 10px;
+            margin-top:10px;
+            height: 30px;
+            border:none;
+            width: 100px;
             background-color: #F085F2;
             border-radius: 10px;
 
@@ -738,9 +785,6 @@ body {
             }
         }
     }
-
-
-
 }
 
 
@@ -908,7 +952,7 @@ body {
         .conteudo-home {
             .imagem-home {
                 button {
-                    top: 30%;
+                    top: 40%;
                 }
 
                 h1 {

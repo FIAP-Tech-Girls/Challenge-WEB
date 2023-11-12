@@ -45,9 +45,9 @@ function Cadastro (){
                     <label htmlFor="senha">Senha:</label>
                     <input type="password" id="senha" value={senha2} onChange={handleSenhachange} placeholder="Insira a senha" required />
                 </div>
-                <div>
-                    <center><button type="submit" id="enviarDuvida">Cadastrar</button></center>
-                </div>
+                
+                <center><input type="submit" className="FormularioLogin-botao" value="Cadastrar"  id="loginCadastro" /></center>
+                
             </form>
         </div>
         </div>

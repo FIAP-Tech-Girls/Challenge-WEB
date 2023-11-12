@@ -37,7 +37,7 @@ function FormularioLogin (){
                 </div>
                 <p className="FormularioLogin-p">Esqueceu a senha? <a className="FormularioLogin-a" href="#">Clique aqui!</a></p>
 
-                    <center><input  className="FormularioLogin-botao" type="submit" value="Enviar" id='enviarDuvida' required/></center>
+                <center><input className="FormularioLogin-botao" type="submit" value="Enviar" id='loginCadastro' required/></center>
 
             </form>
         </div>
