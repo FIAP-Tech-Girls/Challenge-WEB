@@ -1159,11 +1159,97 @@ body {
                 font-size: 20px !important;
                 text-align: justify;
             }
+        }
+    }
+
+    .conteudo-tiana{
+        .titulo-tiana{
+            font-size: 24px;
+        }
+
+        .conteudo-tiana-imagem{
+            flex-direction: column;
+
             
-            .texto-projetos{
-                
+            img{
+                width: 300px;
+            }
+            p{
+                font-size: 20px !important;
+                text-align: justify;
+            }
+        }
+
+        .conteudo-tiana-diferencial{
+            .texto-tiana-diferencial {
+                padding: 40px;
+                text-align: center;
+                font-family: $legenda;
+                font-size: 20px;
+            }
+
+            .grid-container {
+                padding: 15px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                overflow-x: auto;
+
+
+                .grid-item1 {
+                    background-color: #B698BE;
+                    box-shadow: 10px 10px 4px 0px $box-color;
+                    margin-right: 30px;
+                    border-radius: 30px;
+
+                    .imagem1-tiana {
+                        height: 200px;
+                        padding: auto;
+                        padding: 14px;
+                        margin-left: 25px;
+                    }
+
+                    .imagem-tiana-legenda {
+                        text-align: center;
+                        font-family: 'Inika', sans-serif;
+                        font-size: 18px;
+                        color: rgb(255, 255, 255);
+                        font-weight: bold;
+                        margin-bottom: 25%;
+
+                    }
+                }
+
+                .grid-item2 {
+                    background-color: #B698BE;
+                    box-shadow: 10px 10px 4px 0px $box-color;
+                    border-radius: 30px;
+
+                    .imagem2-tiana {
+                        height: 200px;
+                        padding: auto;
+                        padding: 14px;
+                        margin-left: 50px;
+                    }
+
+                    .imagem-tiana-legenda2 {
+                        text-align: center;
+                        font-family: 'Inika', sans-serif;
+                        font-size: 18px;
+                        color: rgb(255, 255, 255);
+                        font-weight: bold;
+                        margin-bottom: 25%;
+                    }
+                }
             }
         }
     }
-}
-}
+    .form{
+        width: 300px;
+
+        #duvida{
+            width: 240px;
+        }
+    }
+}}
